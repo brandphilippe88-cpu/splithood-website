@@ -109,6 +109,7 @@ window.SP_COACH = (function () {
       var c = cfg(), tok = (window.SP_TOKEN && (await window.SP_TOKEN())) || c.supabaseAnonKey;
       var r = await fetch(c.supabaseUrl + '/functions/v1/coach', { method: 'POST', headers: { 'Content-Type': 'application/json', apikey: c.supabaseAnonKey, Authorization: 'Bearer ' + tok }, body: JSON.stringify({ mode: o.mode, lang: o.lang, ctx: ctx, messages: msgs }) });
       if (r.status === 429) throw { code: 'rate_limited' };
+      if (r.status === 503) { eng = null; throw { code: 'none' }; } /* sleutel nog niet ingesteld op de server */
       if (!r.ok) throw { code: 'failed' };
       text = (await r.json()).text || '';
     } else {

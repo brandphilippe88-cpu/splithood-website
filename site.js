@@ -36,7 +36,7 @@
       var plan = null; r.actions.forEach(function (a) { if (a.type === 'schema') plan = K.plan(a.goal, a.date, a.days, 0, weekStart(Date.now()), L); });
       var t = r.text; if (r.actions.some(function (a) { return a.type === 'route'; })) t += (t ? '\n\n' : '') + C[L].coach.route;
       coPush('c', t || C[L].coach.err, plan);
-    }).catch(function (e) { coPush('c', e && e.code === 'rate_limited' ? C[L].coach.limit : C[L].coach.err); }).then(function () { co.busy = false; if (route() === 'coach') { render(); coDown(); } });
+    }).catch(function (e) { coPush('c', e && e.code === 'rate_limited' ? C[L].coach.limit : e && e.code === 'none' ? C[L].coach.off : C[L].coach.err); }).then(function () { co.busy = false; if (route() === 'coach') { render(); coDown(); } });
   }
   function coSend(text) { var T = C[lang].coach; text = String(text || '').trim(); if (text.length < 2 || co.busy) return; coPush('u', text);
     K.available().then(function (ok) { if (!ok) { coPush('c', T.off); render(); coDown(); } else coAsk(); }); }
