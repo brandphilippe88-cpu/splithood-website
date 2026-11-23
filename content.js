@@ -210,6 +210,26 @@ window.SP_CONTENT = {
        ]
       },
       {
+       "t": "Tennis, padel en voetbal",
+       "live": 1,
+       "p": "Bij racket- en teamsporten haalt de app uit de gps van je horloge wat profsystemen ook laten zien: afstand per snelheid, sprints, topsnelheid, versnellingen en een heatmap van waar je was. Vul de uitslag in en zie je seizoen.",
+       "b": [
+        "Voetbal: hoge snelheid vanaf 19,8 km/u, sprints vanaf 25,2 km/u, eerste tegen tweede helft",
+        "Tennis en padel: spel tegen rust, geschat aantal rally’s en hoe snel je hartslag tussen de punten zakt",
+        "Aces, winners en fouten of je goals en assists vul je zelf in; horloges slaan slagen niet op"
+       ]
+      },
+      {
+       "t": "Krachttraining per set",
+       "live": 1,
+       "p": "Log elke set met gewicht, herhalingen en hoeveel je nog kon. De app vult in wat je vorige keer deed, zegt wanneer je zwaarder kunt en start de rust vanzelf.",
+       "b": [
+        "Records direct in beeld, opwarmsets tellen niet mee",
+        "Sets per spiergroep per week, met de 10 tot 20 sets uit onderzoek als richtlijn",
+        "Vaste trainingen in één tik opnieuw starten; je horloge vult de hartslag aan"
+       ]
+      },
+      {
        "t": "Hartslag en sporttest",
        "live": 1,
        "p": "Je rust- en maximale hartslag en VO2max komen van je horloge of uit je test, met de bron erbij. Upload het rapport van je inspanningstest als PDF of foto; de app haalt de waarden eruit en je zones gaan uit van je gemeten drempels.",
@@ -951,6 +971,26 @@ window.SP_CONTENT = {
        ]
       },
       {
+       "t": "Tennis, padel and football",
+       "live": 1,
+       "p": "For racket and team sports the app takes from your watch’s GPS what pro systems show too: distance per speed, sprints, top speed, accelerations and a heatmap of where you were. Add the score and see your season.",
+       "b": [
+        "Football: high speed from 19.8 km/h, sprints from 25.2 km/h, first versus second half",
+        "Tennis and padel: play versus rest, estimated rallies and how fast your heart rate drops between points",
+        "Aces, winners and errors or your goals and assists you add yourself; watches do not store strokes"
+       ]
+      },
+      {
+       "t": "Strength training per set",
+       "live": 1,
+       "p": "Log every set with weight, reps and how many you had left. The app fills in what you did last time, tells you when to go heavier and starts the rest timer by itself.",
+       "b": [
+        "Records shown right away; warm-up sets do not count",
+        "Sets per muscle group per week, with the 10 to 20 sets from research as a guide",
+        "Restart saved workouts in one tap; your watch adds the heart rate"
+       ]
+      },
+      {
        "t": "Heart rate and lab test",
        "live": 1,
        "p": "Your resting and maximum heart rate and VO2max come from your watch or your test, with the source shown. Upload your exercise test report as a PDF or photo; the app reads the values and your zones follow your measured thresholds.",
@@ -1689,6 +1729,26 @@ window.SP_CONTENT = {
         "Splits pro Kilometer, Leistungskurve und Herzfrequenzdrift",
         "Was pro Sportart zählt: Spitzen bei Padel und Teamsport, Abfahrten beim Skifahren",
         "Steigungsbereinigtes Tempo beim Laufen"
+       ]
+      },
+      {
+       "t": "Tennis, Padel und Fußball",
+       "live": 1,
+       "p": "Bei Rückschlag- und Mannschaftssportarten holt die App aus dem GPS deiner Uhr, was auch Profisysteme zeigen: Strecke pro Geschwindigkeit, Sprints, Höchstgeschwindigkeit, Beschleunigungen und eine Heatmap, wo du warst. Trag das Ergebnis ein und sieh deine Saison.",
+       "b": [
+        "Fußball: hohe Geschwindigkeit ab 19,8 km/h, Sprints ab 25,2 km/h, erste gegen zweite Halbzeit",
+        "Tennis und Padel: Spiel gegen Pause, geschätzte Ballwechsel und wie schnell dein Puls zwischen den Punkten sinkt",
+        "Asse, Winner und Fehler oder deine Tore und Vorlagen trägst du selbst ein; Uhren speichern keine Schläge"
+       ]
+      },
+      {
+       "t": "Krafttraining pro Satz",
+       "live": 1,
+       "p": "Erfasse jeden Satz mit Gewicht, Wiederholungen und wie viele noch gegangen wären. Die App übernimmt, was du letztes Mal gemacht hast, sagt dir, wann du steigern kannst, und startet die Pause von selbst.",
+       "b": [
+        "Rekorde sofort sichtbar, Aufwärmsätze zählen nicht",
+        "Sätze pro Muskelgruppe pro Woche, mit den 10 bis 20 Sätzen aus der Forschung als Richtwert",
+        "Feste Trainings mit einem Tipp neu starten; deine Uhr ergänzt den Puls"
        ]
       },
       {
