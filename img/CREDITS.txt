@@ -1,0 +1,7 @@
+Sportfoto's: Unsplash (Unsplash-licentie).
+sport-tennis.webp: Moises Alex, https://unsplash.com/photos/man-playing-tennis-WqI-PbYugn4
+sport-gym.webp: John Arano, https://unsplash.com/photos/woman-doing-weight-lifting-h4i9G-de7Po
+sport-fiets.webp: Coen van de Broek, https://unsplash.com/photos/OFyh9TpMyM8
+sport-loop.webp: Jenny Hill, https://unsplash.com/photos/mQVWb7kUoOE
+sport-mtb.webp: Axel Brunst, https://unsplash.com/photos/yr22qT5pqw4
+sport-zwem.webp: Gentrit Sylejmani, https://unsplash.com/photos/man-doing-butterfly-stroke-JjUyjE-oEbM
