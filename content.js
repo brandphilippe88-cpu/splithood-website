@@ -173,23 +173,14 @@ window.SP_CONTENT = {
   "feat": {
    "eyebrow": "Functies",
    "h1": "Wat de app kan",
-   "lead": "Bij elke functie staat of die nu werkt in de testversie of nog gebouwd wordt. We beloven niets wat er niet is.",
+   "lead": "Op volgorde van wat sporters het belangrijkst vinden. Tik op een functie voor de uitleg. Bij elke functie staat of die nu werkt in de testversie of nog gebouwd wordt.",
    "live": "Werkt in de testversie",
    "dev": "In ontwikkeling",
    "groups": [
     {
-     "h": "Je data en je inzicht",
+     "h": "Je trainingen, vanzelf binnen",
+     "w": "Waar mensen een sportapp het meest voor gebruiken: bijhouden wat je doet, zonder gedoe.",
      "items": [
-      {
-       "t": "Modellen van de leden",
-       "live": 1,
-       "p": "De trainingen van alle leden samen maken de schema’s en adviezen beter. Je doet standaard mee, zonder naam, foto of route, en je zet het uit wanneer je wilt.",
-       "b": [
-        "Hartslag, herstel en blessures tellen alleen mee als je dat zelf aanzet",
-        "Wie meedoet krijgt de verbeterde modellen; wie het uitzet houdt de standaardregels",
-        "Een model dat met ledengegevens is getraind wordt niet verkocht zonder stemming van de leden"
-       ]
-      },
       {
        "t": "Apple Health en Health Connect",
        "live": 1,
@@ -197,8 +188,59 @@ window.SP_CONTENT = {
        "b": [
         "iPhone-app in TestFlight, Android-app in test",
         "Rechtstreekse koppelingen met Garmin, Oura en Whoop volgen"
-       ]
+       ],
+       "s": "Koppel één keer; je trainingen, hartslag en slaap komen vanzelf."
       },
+      {
+       "t": "Alle sporten van je horloge",
+       "live": 1,
+       "p": "Niet alleen fietsen en hardlopen: 85 sporten in elf groepen, van padel en tennis tot kitesurfen, toerskiën en boksen. Alles wat je horloge vastlegt komt in je logboek, ook trainingen zonder gps.",
+       "b": [
+        "Zwemmen, roeien, schaatsen, skiën, langlaufen, wandelen en meer",
+        "Krachttraining, yoga, loopband en fietsen binnen, met tijd, hartslag en energie",
+        "Tempo in de eenheid van de sport: per km, km/u of per 100 meter"
+       ],
+       "s": "85 sporten, van padel tot toerskiën, ook zonder gps."
+      },
+      {
+       "t": "Je historie meenemen",
+       "live": 1,
+       "p": "Je begint niet bij nul. Upload de bestanden van je Garmin, Wahoo, COROS, Polar, Suunto of ander sporthorloge, of het zip-bestand van je Garmin- of Strava-export.",
+       "b": [
+        "FIT, TCX en GPX, ook ingepakt als .gz of .zip",
+        "De bestanden worden op je eigen apparaat uitgelezen",
+        "Dubbele activiteiten worden overgeslagen"
+       ],
+       "s": "Neem je trainingen van Garmin, Strava en andere mee."
+      },
+      {
+       "t": "Opnemen en kaart",
+       "live": 1,
+       "p": "Neem een activiteit op met de gps van je telefoon en zie je route op een echte kaart. Teken zelf een route, deel hem of volg hem onderweg.",
+       "b": [
+        "Tijd, afstand en tempo live in beeld",
+        "Bij het volgen zie je hoeveel kilometer je nog hebt en of je van de route af bent",
+        "Route als GPX-bestand voor je horloge of fietscomputer"
+       ],
+       "s": "Neem op met je telefoon en zie je route op de kaart."
+      },
+      {
+       "t": "Logboek",
+       "live": 1,
+       "p": "Elke training met de route, de afstand, de tijd in beweging, je tempo of snelheid, hoogtemeters, gemiddelde en maximale hartslag en energie.",
+       "b": [
+        "Naam en sport achteraf aan te passen",
+        "Ruim 25 sporten",
+        "Je kiest zelf welke activiteiten je deelt"
+       ],
+       "s": "Al je trainingen op één plek, met de belangrijkste cijfers."
+      }
+     ]
+    },
+    {
+     "h": "Zien dat je beter wordt",
+     "w": "Voortgang zien houdt mensen gemotiveerd en is de tweede reden om een app te blijven gebruiken.",
+     "items": [
       {
        "t": "Grafieken per training",
        "live": 1,
@@ -207,7 +249,19 @@ window.SP_CONTENT = {
         "Splits per kilometer, vermogenscurve en hartslagdrift",
         "Per sport wat ertoe doet: pieken bij padel en teamsport, afdalingen bij skiën",
         "Tempo gecorrigeerd voor helling bij hardlopen"
-       ]
+       ],
+       "s": "Hartslag, tempo, vermogen en meer, met inzoomen."
+      },
+      {
+       "t": "Zones, vorm en records",
+       "live": 1,
+       "p": "Per training je tijd in vijf hartslagzones en je vermogen. Over weken heen je conditie en vermoeidheid, en je snelste tijden.",
+       "b": [
+        "Records op 1, 5 en 10 km, halve en hele marathon, en 10, 40 en 100 km op de fiets",
+        "Vorm berekend uit duur en hartslag",
+        "Uitdagingen per maand, badges en een jaaroverzicht"
+       ],
+       "s": "Je hartslagzones, je vorm over weken en je snelste tijden."
       },
       {
        "t": "Tennis, padel en voetbal",
@@ -217,17 +271,30 @@ window.SP_CONTENT = {
         "Voetbal: hoge snelheid vanaf 19,8 km/u, sprints vanaf 25,2 km/u, eerste tegen tweede helft",
         "Tennis en padel: spel tegen rust, geschat aantal rally’s en hoe snel je hartslag tussen de punten zakt",
         "Aces, winners en fouten of je goals en assists vul je zelf in; horloges slaan slagen niet op"
-       ]
+       ],
+       "s": "Sprints, rally’s, heatmap en je uitslag per wedstrijd."
       },
       {
-       "t": "Krachttraining per set",
+       "t": "Vandaag",
        "live": 1,
-       "p": "Log elke set met gewicht, herhalingen en hoeveel je nog kon. De app vult in wat je vorige keer deed, zegt wanneer je zwaarder kunt en start de rust vanzelf.",
+       "p": "Je week in één oogopslag: totale trainingstijd, een balk per dag en een vergelijking met je gemiddelde van de afgelopen vier weken.",
        "b": [
-        "Records direct in beeld, opwarmsets tellen niet mee",
-        "Sets per spiergroep per week, met de 10 tot 20 sets uit onderzoek als richtlijn",
-        "Vaste trainingen in één tik opnieuw starten; je horloge vult de hartslag aan"
-       ]
+        "Rustige week, in balans of zware week",
+        "Je eerstvolgende groepsactiviteit",
+        "Slaap en voeding van vandaag, als je die bijhoudt"
+       ],
+       "s": "Je week in één oogopslag tegen je gemiddelde."
+      },
+      {
+       "t": "Weekanalyse",
+       "live": 1,
+       "p": "Een korte tekst over je week, opgesteld met vaste regels. Er komt geen AI aan te pas, dus het kost niets extra en je weet waar het advies vandaan komt.",
+       "b": [
+        "Je langste training van de week",
+        "Waarschuwt als je veel meer doet dan je gewend bent",
+        "Houdt rekening met korte nachten"
+       ],
+       "s": "Een korte uitleg over je week, zonder AI."
       },
       {
        "t": "Hartslag en sporttest",
@@ -236,7 +303,8 @@ window.SP_CONTENT = {
        "b": [
         "Lactaatdrempels, VO2max en zones uit het rapport",
         "Alleen jij ziet je testuitslagen"
-       ]
+       ],
+       "s": "Je zones gaan uit van je eigen test of horloge."
       },
       {
        "t": "Herstel en gevoel",
@@ -247,27 +315,180 @@ window.SP_CONTENT = {
         "Je cijfer telt mee in je belasting, ook zonder hartslagmeter",
         "Je hoeft niets dagelijks in te vullen. Wil je het wel, dan geef je in tien seconden aan hoe je je voelt",
         "De coach kijkt naar zeven dagen tegen je eigen normaal, niet naar één meting, en stelt pas een lichte dag voor als gevoel en meetwaarden dezelfde kant op wijzen; alles blijft privé"
-       ]
+       ],
+       "s": "Hoe zwaar het voelde naast wat je meter zegt."
       },
       {
-       "t": "Opnemen en kaart",
+       "t": "Slaap en voeding",
        "live": 1,
-       "p": "Neem een activiteit op met de gps van je telefoon en zie je route op een echte kaart. Teken zelf een route, deel hem of volg hem onderweg.",
+       "p": "Slaap komt vanzelf binnen via Apple Health of Health Connect; energie en koolhydraten vul je zelf in als je dat wilt.",
        "b": [
-        "Tijd, afstand en tempo live in beeld",
-        "Bij het volgen zie je hoeveel kilometer je nog hebt en of je van de route af bent",
-        "Route als GPX-bestand voor je horloge of fietscomputer"
-       ]
+        "Gemiddelde slaap over de laatste zeven nachten",
+        "Alleen zichtbaar voor jou",
+        "Uit te zetten als je het niet gebruikt"
+       ],
+       "s": "Slaap vanzelf binnen; voeding als je wilt."
+      }
+     ]
+    },
+    {
+     "h": "Samen sporten",
+     "w": "Waardering, vrienden en clubs maken dat je blijft komen.",
+     "items": [
+      {
+       "t": "Volgen, feed en splits",
+       "live": 1,
+       "p": "Volg leden uit je stad of je club en zie hun gedeelde activiteiten in je feed. Geef een split als waardering en laat een reactie achter.",
+       "b": [
+        "Per activiteit kies je of die in de feed komt",
+        "Leden zien de naam, sport, afstand, tijd, hartslag en de lijn van je route",
+        "Je hartslag verberg je met één schakelaar, je privacyzone wordt altijd weggelaten"
+       ],
+       "s": "Volg leden, zie hun trainingen en geef een split."
       },
       {
-       "t": "Zones, vorm en records",
+       "t": "Trainingsmaatjes in je stad",
        "live": 1,
-       "p": "Per training je tijd in vijf hartslagzones en je vermogen. Over weken heen je conditie en vermoeidheid, en je snelste tijden.",
+       "p": "Suggesties voor leden in je eigen stad die ongeveer even snel en even ver gaan als jij, dezelfde sport doen en op dezelfde momenten sporten. Je deelt alleen gemiddelden, je sporten, grofweg wanneer je sport en een leeftijdsgroep.",
        "b": [
-        "Records op 1, 5 en 10 km, halve en hele marathon, en 10, 40 en 100 km op de fiets",
-        "Vorm berekend uit duur en hartslag",
-        "Uitdagingen per maand, badges en een jaaroverzicht"
-       ]
+        "Op basis van je gemiddelde tempo en afstand van de afgelopen acht weken",
+        "Leden zien alleen gemiddelden en een leeftijdsgroep, nooit je geboortejaar",
+        "Je zet het met één schakelaar uit; onder de 18 doe je niet mee"
+       ],
+       "s": "Leden in je stad die net zo snel en op dezelfde tijden sporten."
+      },
+      {
+       "t": "Groepsactiviteiten",
+       "live": 1,
+       "p": "Meld je aan voor een run of ride bij jou in de buurt, of organiseer er zelf een. Met afstand, tempo, startplaats en een maximum aantal deelnemers.",
+       "b": [
+        "Vol is vol, daarna een wachtlijst die vanzelf doorschuift",
+        "Je ziet wie er meegaat",
+        "Deelname is op eigen risico"
+       ],
+       "s": "Doe mee met een run of ride in de buurt, of organiseer er een."
+      },
+      {
+       "t": "Clubs",
+       "live": 1,
+       "p": "Start een club voor je loopgroep of wielervereniging. Leden zien de clubactiviteiten en elkaars kilometers.",
+       "b": [
+        "Clubactiviteiten staan onder de naam van de club",
+        "Lid worden en verlaten met één tik",
+        "De oprichter beheert de club"
+       ],
+       "s": "Je loopgroep of wielervereniging in de app."
+      },
+      {
+       "t": "Meldingen, berichten en foto’s",
+       "live": 1,
+       "p": "Zie wie je een split gaf, reageerde of je ging volgen. Stuur een lid een privébericht en zet een foto bij je activiteit.",
+       "b": [
+        "Berichten zijn alleen zichtbaar voor jou en de ontvanger",
+        "Een lid blokkeren kan met één tik; dat lid krijgt daar geen melding van",
+        "Pushmeldingen komen met de telefoon-app"
+       ],
+       "s": "Meldingen, privéberichten en foto’s bij je activiteit."
+      },
+      {
+       "t": "Forum met echte kilometers",
+       "live": 1,
+       "p": "Drie rubrieken: materiaal, routes en evenementen. Bij een review van een band of schoen zie je hoeveel kilometer de schrijver in zijn logboek heeft staan.",
+       "b": [
+        "Reageren en berichten melden",
+        "Je verwijdert je eigen berichten zelf",
+        "Moderatie door de beheerder"
+       ],
+       "s": "Reviews van materiaal met de kilometers van de schrijver erbij."
+      }
+     ]
+    },
+    {
+     "h": "Routes en segmenten",
+     "w": "Nieuwe rondes vinden en jezelf verbeteren op vaste stukken.",
+     "items": [
+      {
+       "t": "Routes vanaf je adres",
+       "live": 1,
+       "p": "Kies je sport en afstand: de app maakt rondes vanaf je adres of een punt dat je kiest, langs de paden waar leden het meest sporten. Met foto’s die leden met een openbaar profiel onderweg maakten.",
+       "b": [
+        "Routeplanner op basis van OpenStreetMap",
+        "Je adres blijft privé en krijgt een privacyzone",
+        "Als GPX naar je horloge of fietscomputer"
+       ],
+       "s": "Rondes vanaf je huis langs de paden waar leden sporten."
+      },
+      {
+       "t": "Routes delen",
+       "live": 1,
+       "p": "Deel een gereden activiteit als route, met een toelichting over wegdek of drukte. Anderen zetten hem als GPX op hun fietscomputer of horloge.",
+       "b": [
+        "Alleen de lijn en de afstand worden gedeeld, geen tijden of hartslag",
+        "Je privacyzone wordt weggelaten",
+        "Routes uit je eigen stad staan bovenaan"
+       ],
+       "s": "Deel een rit als route; anderen zetten hem op hun horloge."
+      },
+      {
+       "t": "Segmenten en ranglijsten",
+       "live": 1,
+       "p": "Maak van elk stuk van je route een segment. Iedereen die daar langskomt en ranglijsten aan heeft staan, telt automatisch mee.",
+       "b": [
+        "Ranglijst voor je eigen stad of voor iedereen",
+        "Je ziet hoeveel seconden je van de snelste tijd af zit",
+        "Je beste tijd wordt herkend in al je activiteiten"
+       ],
+       "s": "Maak een segment van elk stuk en zie de ranglijst."
+      },
+      {
+       "t": "Heatmap",
+       "live": 1,
+       "p": "Je eigen kaart laat zien waar je het meest rijdt en loopt. De gezamenlijke kaart van je stad gaat open zodra er genoeg leden zijn.",
+       "b": [
+        "Zichtbare stand per stad: hoeveel leden er nog nodig zijn",
+        "Je draagt anoniem bij, zonder tijden of namen",
+        "Wie niet bijdraagt, ziet de gezamenlijke kaart niet"
+       ],
+       "s": "Waar jij en je stad het meest sporten."
+      }
+     ]
+    },
+    {
+     "h": "Trainen met een plan",
+     "w": "Een coach, een schema en kracht per set, voor wie gericht wil trainen.",
+     "items": [
+      {
+       "t": "Coach",
+       "live": 1,
+       "p": "Een coach in de app die je logboek kent. Hij stelt de training van vandaag voor, bouwt een schema naar je doel, zoekt een route en denkt mee als je wilt sparren.",
+       "b": [
+        "De training van vandaag, schema’s en routes volgen vaste regels en kosten geen rekenkracht",
+        "Alleen een vrije vraag gaat naar een klein taalmodel, met een korte samenvatting van je training",
+        "Je naam, je woonplaats en je routes gaan niet mee, en de coach geeft geen medisch advies"
+       ],
+       "s": "Een coach die je logboek kent en meedenkt."
+      },
+      {
+       "t": "Trainingsschema",
+       "live": 1,
+       "p": "Een opbouw naar je doel in trainingstijd, niet in kilometers. Het schema vertrekt van wat je nu per week doet en geeft bij elke sessie een invulling. Het volgt vaste regels en is nog niet door een trainer getoetst.",
+       "b": [
+        "Van 5 km tot marathon, toertochten van 100 en 160 km, of conditie opbouwen zonder wedstrijd",
+        "Elke sessie met duur en invulling, bijvoorbeeld 6 × 3 minuten hard",
+        "Ongeveer 8% erbij per week, elke vierde week herstel, afbouw voor de wedstrijd"
+       ],
+       "s": "Een opbouw naar je doel vanaf wat je nu doet."
+      },
+      {
+       "t": "Krachttraining per set",
+       "live": 1,
+       "p": "Log elke set met gewicht, herhalingen en hoeveel je nog kon. De app vult in wat je vorige keer deed, zegt wanneer je zwaarder kunt en start de rust vanzelf.",
+       "b": [
+        "Records direct in beeld, opwarmsets tellen niet mee",
+        "Sets per spiergroep per week, met de 10 tot 20 sets uit onderzoek als richtlijn",
+        "Vaste trainingen in één tik opnieuw starten; je horloge vult de hartslag aan"
+       ],
+       "s": "Log gewicht, herhalingen en rust per set."
       },
       {
        "t": "Gymsessie op maat",
@@ -278,208 +499,37 @@ window.SP_CONTENT = {
         "Gericht op hardlopen, fietsen, tennis of padel, zwemmen of teamsport",
         "Oefening niet beschikbaar? Wissel hem met één tik. Na afloop staat alles in je logboek",
         "Sets, herhalingen en rust volgen meta-analyses over krachttraining; bij elke sessie zie je welke"
-       ]
+       ],
+       "s": "Een sessie op maat voor je tijd en materiaal."
       },
       {
-       "t": "Kracht en materiaal",
+       "t": "Materiaal en zelf invoeren",
        "live": 1,
-       "p": "Leg krachttraining vast met oefeningen, sets, herhalingen en gewicht. Houd bij hoeveel kilometer er op je fiets of schoenen zit.",
+       "p": "Houd bij hoeveel kilometer er op je fiets of schoenen zit, en voeg een training zonder horloge zelf toe.",
        "b": [
         "Ook handmatig een activiteit toevoegen",
         "Standaardmateriaal per sport",
         "Seintje als je schoenen boven de 700 km komen"
-       ]
-      },
-      {
-       "t": "Coach",
-       "live": 1,
-       "p": "Een coach in de app die je logboek kent. Hij stelt de training van vandaag voor, bouwt een schema naar je doel, zoekt een route en denkt mee als je wilt sparren.",
-       "b": [
-        "De training van vandaag, schema’s en routes volgen vaste regels en kosten geen rekenkracht",
-        "Alleen een vrije vraag gaat naar een klein taalmodel, met een korte samenvatting van je training",
-        "Je naam, je woonplaats en je routes gaan niet mee, en de coach geeft geen medisch advies"
-       ]
-      },
-      {
-       "t": "Je historie meenemen",
-       "live": 1,
-       "p": "Je begint niet bij nul. Upload de bestanden van je Garmin, Wahoo, COROS, Polar, Suunto of ander sporthorloge, of het zip-bestand van je Garmin- of Strava-export.",
-       "b": [
-        "FIT, TCX en GPX, ook ingepakt als .gz of .zip",
-        "De bestanden worden op je eigen apparaat uitgelezen",
-        "Dubbele activiteiten worden overgeslagen"
-       ]
-      },
-      {
-       "t": "Alle sporten van je horloge",
-       "live": 1,
-       "p": "Niet alleen fietsen en hardlopen: 85 sporten in elf groepen, van padel en tennis tot kitesurfen, toerskiën en boksen. Alles wat je horloge vastlegt komt in je logboek, ook trainingen zonder gps.",
-       "b": [
-        "Zwemmen, roeien, schaatsen, skiën, langlaufen, wandelen en meer",
-        "Krachttraining, yoga, loopband en fietsen binnen, met tijd, hartslag en energie",
-        "Tempo in de eenheid van de sport: per km, km/u of per 100 meter"
-       ]
-      },
-      {
-       "t": "Logboek",
-       "live": 1,
-       "p": "Elke training met de route, de afstand, de tijd in beweging, je tempo of snelheid, hoogtemeters, gemiddelde en maximale hartslag en energie.",
-       "b": [
-        "Naam en sport achteraf aan te passen",
-        "Ruim 25 sporten",
-        "Je kiest zelf welke activiteiten je deelt"
-       ]
-      },
-      {
-       "t": "Vandaag",
-       "live": 1,
-       "p": "Je week in één oogopslag: totale trainingstijd, een balk per dag en een vergelijking met je gemiddelde van de afgelopen vier weken.",
-       "b": [
-        "Rustige week, in balans of zware week",
-        "Je eerstvolgende groepsactiviteit",
-        "Slaap en voeding van vandaag, als je die bijhoudt"
-       ]
-      },
-      {
-       "t": "Weekanalyse",
-       "live": 1,
-       "p": "Een korte tekst over je week, opgesteld met vaste regels. Er komt geen AI aan te pas, dus het kost niets extra en je weet waar het advies vandaan komt.",
-       "b": [
-        "Je langste training van de week",
-        "Waarschuwt als je veel meer doet dan je gewend bent",
-        "Houdt rekening met korte nachten"
-       ]
-      },
-      {
-       "t": "Trainingsschema",
-       "live": 1,
-       "p": "Een opbouw naar je doel in trainingstijd, niet in kilometers. Het schema vertrekt van wat je nu per week doet en geeft bij elke sessie een invulling. Het volgt vaste regels en is nog niet door een trainer getoetst.",
-       "b": [
-        "Van 5 km tot marathon, toertochten van 100 en 160 km, of conditie opbouwen zonder wedstrijd",
-        "Elke sessie met duur en invulling, bijvoorbeeld 6 × 3 minuten hard",
-        "Ongeveer 8% erbij per week, elke vierde week herstel, afbouw voor de wedstrijd"
-       ]
-      },
-      {
-       "t": "Slaap en voeding",
-       "live": 1,
-       "p": "Slaap komt vanzelf binnen via Apple Health of Health Connect; energie en koolhydraten vul je zelf in als je dat wilt.",
-       "b": [
-        "Gemiddelde slaap over de laatste zeven nachten",
-        "Alleen zichtbaar voor jou",
-        "Uit te zetten als je het niet gebruikt"
-       ]
-      }
-     ]
-    },
-    {
-     "h": "Samen in je stad",
-     "items": [
-      {
-       "t": "Meldingen, berichten en foto’s",
-       "live": 1,
-       "p": "Zie wie je een split gaf, reageerde of je ging volgen. Stuur een lid een privébericht en zet een foto bij je activiteit.",
-       "b": [
-        "Berichten zijn alleen zichtbaar voor jou en de ontvanger",
-        "Een lid blokkeren kan met één tik; dat lid krijgt daar geen melding van",
-        "Pushmeldingen komen met de telefoon-app"
-       ]
-      },
-      {
-       "t": "Trainingsmaatjes in je stad",
-       "live": 1,
-       "p": "Suggesties voor leden in je eigen stad die ongeveer even snel en even ver gaan als jij, dezelfde sport doen en op dezelfde momenten sporten. Je deelt alleen gemiddelden, je sporten, grofweg wanneer je sport en een leeftijdsgroep.",
-       "b": [
-        "Op basis van je gemiddelde tempo en afstand van de afgelopen acht weken",
-        "Leden zien alleen gemiddelden en een leeftijdsgroep, nooit je geboortejaar",
-        "Je zet het met één schakelaar uit; onder de 18 doe je niet mee"
-       ]
-      },
-      {
-       "t": "Volgen, feed en splits",
-       "live": 1,
-       "p": "Volg leden uit je stad of je club en zie hun gedeelde activiteiten in je feed. Geef een split als waardering en laat een reactie achter.",
-       "b": [
-        "Per activiteit kies je of die in de feed komt",
-        "Leden zien de naam, sport, afstand, tijd, hartslag en de lijn van je route",
-        "Je hartslag verberg je met één schakelaar, je privacyzone wordt altijd weggelaten"
-       ]
-      },
-      {
-       "t": "Segmenten en ranglijsten",
-       "live": 1,
-       "p": "Maak van elk stuk van je route een segment. Iedereen die daar langskomt en ranglijsten aan heeft staan, telt automatisch mee.",
-       "b": [
-        "Ranglijst voor je eigen stad of voor iedereen",
-        "Je ziet hoeveel seconden je van de snelste tijd af zit",
-        "Je beste tijd wordt herkend in al je activiteiten"
-       ]
-      },
-      {
-       "t": "Heatmap",
-       "live": 1,
-       "p": "Je eigen kaart laat zien waar je het meest rijdt en loopt. De gezamenlijke kaart van je stad gaat open zodra er genoeg leden zijn.",
-       "b": [
-        "Zichtbare stand per stad: hoeveel leden er nog nodig zijn",
-        "Je draagt anoniem bij, zonder tijden of namen",
-        "Wie niet bijdraagt, ziet de gezamenlijke kaart niet"
-       ]
-      },
-      {
-       "t": "Groepsactiviteiten",
-       "live": 1,
-       "p": "Meld je aan voor een run of ride bij jou in de buurt, of organiseer er zelf een. Met afstand, tempo, startplaats en een maximum aantal deelnemers.",
-       "b": [
-        "Vol is vol, daarna een wachtlijst die vanzelf doorschuift",
-        "Je ziet wie er meegaat",
-        "Deelname is op eigen risico"
-       ]
-      },
-      {
-       "t": "Clubs",
-       "live": 1,
-       "p": "Start een club voor je loopgroep of wielervereniging. Leden zien de clubactiviteiten en elkaars kilometers.",
-       "b": [
-        "Clubactiviteiten staan onder de naam van de club",
-        "Lid worden en verlaten met één tik",
-        "De oprichter beheert de club"
-       ]
-      },
-      {
-       "t": "Forum met echte kilometers",
-       "live": 1,
-       "p": "Drie rubrieken: materiaal, routes en evenementen. Bij een review van een band of schoen zie je hoeveel kilometer de schrijver in zijn logboek heeft staan.",
-       "b": [
-        "Reageren en berichten melden",
-        "Je verwijdert je eigen berichten zelf",
-        "Moderatie door de beheerder"
-       ]
-      },
-      {
-       "t": "Routes delen",
-       "live": 1,
-       "p": "Deel een gereden activiteit als route, met een toelichting over wegdek of drukte. Anderen zetten hem als GPX op hun fietscomputer of horloge.",
-       "b": [
-        "Alleen de lijn en de afstand worden gedeeld, geen tijden of hartslag",
-        "Je privacyzone wordt weggelaten",
-        "Routes uit je eigen stad staan bovenaan"
-       ]
-      },
-      {
-       "t": "Routes vanaf je adres",
-       "live": 1,
-       "p": "Kies je sport en afstand: de app maakt rondes vanaf je adres of een punt dat je kiest, langs de paden waar leden het meest sporten. Met foto’s die leden met een openbaar profiel onderweg maakten.",
-       "b": [
-        "Routeplanner op basis van OpenStreetMap",
-        "Je adres blijft privé en krijgt een privacyzone",
-        "Als GPX naar je horloge of fietscomputer"
-       ]
+       ],
+       "s": "Kilometers op je fiets en schoenen, en trainingen zonder horloge."
       }
      ]
     },
     {
      "h": "Jij bepaalt",
+     "w": "Wat je deelt, wat je aanzet en wat er met je gegevens gebeurt.",
      "items": [
+      {
+       "t": "Privacy",
+       "live": 1,
+       "p": "Je bepaalt zelf wat je deelt. Wat je niet deelt, ziet alleen jij. Met een privacyzone blijft 400 meter rond je startpunt ook uit de heatmap, segmenten en gedeelde routes.",
+       "b": [
+        "Al je data in één keer meenemen",
+        "Alles van jou wissen met één knop",
+        "Opslag in de EU, geen verkoop van gegevens"
+       ],
+       "s": "Jij kiest wat je deelt; je startpunt blijft afgeschermd."
+      },
       {
        "t": "Jouw data, jouw keuze",
        "live": 1,
@@ -488,7 +538,19 @@ window.SP_CONTENT = {
         "Standaard doe je niet mee; meedoen vraagt een uitdrukkelijke toestemming per aanbod",
         "Je ziet vooraf wie de gegevens wil, welke gegevens en waarvoor",
         "Stoppen kan altijd; je naam, berichten en foto’s worden nooit geleverd"
-       ]
+       ],
+       "s": "Geen verkoop van gegevens; jij beslist per aanbod."
+      },
+      {
+       "t": "Modellen van de leden",
+       "live": 1,
+       "p": "De trainingen van alle leden samen maken de schema’s en adviezen beter. Je doet standaard mee, zonder naam, foto of route, en je zet het uit wanneer je wilt.",
+       "b": [
+        "Hartslag, herstel en blessures tellen alleen mee als je dat zelf aanzet",
+        "Wie meedoet krijgt de verbeterde modellen; wie het uitzet houdt de standaardregels",
+        "Een model dat met ledengegevens is getraind wordt niet verkocht zonder stemming van de leden"
+       ],
+       "s": "Samen betere adviezen, anoniem en uit te zetten."
       },
       {
        "t": "Modules aan en uit",
@@ -498,17 +560,8 @@ window.SP_CONTENT = {
         "Wat uit staat, verdwijnt uit je scherm",
         "Ranglijsten uit betekent: je tijden worden niet gedeeld",
         "Heatmap uit betekent: je routes tellen niet mee"
-       ]
-      },
-      {
-       "t": "Privacy",
-       "live": 1,
-       "p": "Je bepaalt zelf wat je deelt. Wat je niet deelt, ziet alleen jij. Met een privacyzone blijft 400 meter rond je startpunt ook uit de heatmap, segmenten en gedeelde routes.",
-       "b": [
-        "Al je data in één keer meenemen",
-        "Alles van jou wissen met één knop",
-        "Opslag in de EU, geen verkoop van gegevens"
-       ]
+       ],
+       "s": "Zet alleen aan wat je gebruikt."
       },
       {
        "t": "Eigenaarspagina",
@@ -517,18 +570,21 @@ window.SP_CONTENT = {
        "b": [
         "Eén lid, één stem",
         "Je ziet de uitslag nadat je gestemd hebt"
-       ]
+       ],
+       "s": "Je ledennummer, stemmingen en de cijfers van het bedrijf."
       }
      ]
     },
     {
      "h": "Binnenkort",
+     "w": "Waar we nu aan werken.",
      "items": [
       {
        "t": "App voor iPhone en Android",
        "live": 0,
        "p": "De iPhone-app staat in TestFlight voor de eerste testers; de Android-app wordt getest. De App Store en Google Play volgen na de testfase.",
-       "b": []
+       "b": [],
+       "s": "De iPhone-app is in test, Android volgt."
       },
       {
        "t": "Rechtstreekse koppeling met je horloge",
@@ -536,11 +592,50 @@ window.SP_CONTENT = {
        "p": "Via Apple Health en Health Connect komen Garmin, Oura en Whoop nu al binnen. Rechtstreekse koppelingen met Garmin, Oura, Whoop, Wahoo, COROS en Polar volgen; leden stemmen over de volgorde.",
        "b": [
         "Tot die tijd werkt elk merk via bestanden of je telefoon"
-       ]
+       ],
+       "s": "Garmin, Oura en Whoop rechtstreeks gekoppeld."
       }
      ]
     }
-   ]
+   ],
+   "why": {
+    "h": "Waarom deze volgorde",
+    "p": "We hebben gekeken naar onderzoek naar wat mensen met sportapps en horloges doen, en wat ze laat blijven.",
+    "b": [
+     "Bijhouden en je voortgang zien zijn de functies die mensen het meest gebruiken; in een onderzoek onder Fitbit-gebruikers gingen bijwerken en herinneren voorop.",
+     "Koppelen met je horloge staat aan het begin: wat je horloge meet is de basis voor al het andere.",
+     "Samen sporten houdt mensen vast: op Strava werden in 2025 14 miljard kudos gegeven en werd het aantal clubs bijna vier keer zo groot. Wie zijn trainingen openbaar deelt, blijft volgens een langlopend onderzoek langer een meter gebruiken.",
+     "Routes zijn veel gevraagd: op Strava werd in 2025 elke 19 seconden een nieuwe route gemaakt.",
+     "Een coach is een groeiende wens: 46% van 30.000 ondervraagden zou AI als coach gebruiken.",
+     "Ruim 45% maakt zich zorgen over de veiligheid van zijn gezondheidsgegevens, maar weinig mensen stellen hun privacy zelf in. Daarom kies je bij ons per onderdeel wat je deelt, en verkopen we geen gegevens."
+    ],
+    "src": [
+     [
+      "Fitbit-gebruikers, JMIR Human Factors 2026",
+      "https://humanfactors.jmir.org/2026/1/e85412"
+     ],
+     [
+      "Strava Year in Sport 2025",
+      "https://www.prnewswire.co.uk/news-releases/strava-releases-12th-annual-year-in-sport-trend-report-revealing-that-doomscrolling-is-out-movement-is-in-302631130.html"
+     ],
+     [
+      "Delen en blijvend gebruik, 2021",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC7982124"
+     ],
+     [
+      "Gebruik van privacyfuncties, CHI 2026",
+      "https://elathan.github.io/papers/chi26.pdf"
+     ],
+     [
+      "Zorgen over gezondheidsgegevens, Healthline",
+      "https://www.bitdefender.com/en-gb/blog/hotforsecurity/one-in-two-users-fears-personal-health-data-is-unsafe-on-fitness-apps-and-gadgets"
+     ]
+    ],
+    "srch": "Bronnen"
+   },
+   "more": "Meer uitleg",
+   "open": "Alles openklappen",
+   "close": "Alles dichtklappen"
   },
   "own": {
    "eyebrow": "Eigendom",
@@ -934,23 +1029,14 @@ window.SP_CONTENT = {
   "feat": {
    "eyebrow": "Features",
    "h1": "What the app does",
-   "lead": "Each feature shows whether it works in the test version today or is still being built. We promise nothing that is not there.",
+   "lead": "In order of what athletes find most important. Tap a feature for the details. Each feature shows whether it works in the test version today or is still being built.",
    "live": "Works in the test version",
    "dev": "In development",
    "groups": [
     {
-     "h": "Your data and your insight",
+     "h": "Your workouts, in by themselves",
+     "w": "What people use a sports app for most: keeping track of what they do, without hassle.",
      "items": [
-      {
-       "t": "Models owned by members",
-       "live": 1,
-       "p": "The training of all members together makes the plans and advice better. You take part by default, without your name, photo or route, and you can switch it off whenever you like.",
-       "b": [
-        "Heart rate, recovery and injuries only count if you switch that on yourself",
-        "Members who take part get the improved models; switch it off and you keep the standard rules",
-        "A model trained on member data is not sold without a vote of the members"
-       ]
-      },
       {
        "t": "Apple Health and Health Connect",
        "live": 1,
@@ -958,8 +1044,59 @@ window.SP_CONTENT = {
        "b": [
         "iPhone app in TestFlight, Android app in testing",
         "Direct links with Garmin, Oura and Whoop will follow"
-       ]
+       ],
+       "s": "Connect once; your workouts, heart rate and sleep arrive by themselves."
       },
+      {
+       "t": "Every sport your watch records",
+       "live": 1,
+       "p": "Not just cycling and running: 85 sports in eleven groups, from padel and tennis to kitesurfing, ski touring and boxing. Everything your watch records lands in your log, including sessions without GPS.",
+       "b": [
+        "Swimming, rowing, skating, skiing, cross-country skiing, walking and more",
+        "Strength, yoga, treadmill and indoor cycling, with time, heart rate and energy",
+        "Pace in the unit of the sport: per km, km/h or per 100 metres"
+       ],
+       "s": "85 sports, from padel to ski touring, also without GPS."
+      },
+      {
+       "t": "Bring your history",
+       "live": 1,
+       "p": "You do not start from zero. Upload the files from your Garmin, Wahoo, COROS, Polar, Suunto or other sports watch, or the zip file of your Garmin or Strava export.",
+       "b": [
+        "FIT, TCX and GPX, also packed as .gz or .zip",
+        "Files are read on your own device",
+        "Duplicate activities are skipped"
+       ],
+       "s": "Bring your workouts from Garmin, Strava and others."
+      },
+      {
+       "t": "Record and map",
+       "live": 1,
+       "p": "Record an activity with your phone’s GPS and see your route on a real map. Draw a route yourself, share it or follow it on the go.",
+       "b": [
+        "Time, distance and pace live on screen",
+        "While following you see the kilometres left and whether you are off the route",
+        "Route as a GPX file for your watch or bike computer"
+       ],
+       "s": "Record with your phone and see your route on the map."
+      },
+      {
+       "t": "Training log",
+       "live": 1,
+       "p": "Every session with its route, distance, moving time, pace or speed, elevation gain, average and maximum heart rate and energy.",
+       "b": [
+        "Rename and change the sport afterwards",
+        "More than 25 sports",
+        "You choose which activities you share"
+       ],
+       "s": "All your workouts in one place, with the key numbers."
+      }
+     ]
+    },
+    {
+     "h": "Seeing yourself improve",
+     "w": "Seeing progress keeps people motivated and is the second reason they keep using an app.",
+     "items": [
       {
        "t": "Charts for every workout",
        "live": 1,
@@ -968,7 +1105,19 @@ window.SP_CONTENT = {
         "Splits per kilometre, power curve and heart rate drift",
         "What matters per sport: peaks in padel and team sports, runs when skiing",
         "Grade-adjusted pace for running"
-       ]
+       ],
+       "s": "Heart rate, pace, power and more, with zoom."
+      },
+      {
+       "t": "Zones, form and records",
+       "live": 1,
+       "p": "Per session your time in five heart rate zones and your power. Across weeks your fitness and fatigue, and your fastest times.",
+       "b": [
+        "Records over 1, 5 and 10 km, half and full marathon, and 10, 40 and 100 km on the bike",
+        "Form calculated from duration and heart rate",
+        "Monthly challenges, badges and a year in review"
+       ],
+       "s": "Your heart rate zones, your form over weeks and your fastest times."
       },
       {
        "t": "Tennis, padel and football",
@@ -978,17 +1127,30 @@ window.SP_CONTENT = {
         "Football: high speed from 19.8 km/h, sprints from 25.2 km/h, first versus second half",
         "Tennis and padel: play versus rest, estimated rallies and how fast your heart rate drops between points",
         "Aces, winners and errors or your goals and assists you add yourself; watches do not store strokes"
-       ]
+       ],
+       "s": "Sprints, rallies, heatmap and your score for each match."
       },
       {
-       "t": "Strength training per set",
+       "t": "Today",
        "live": 1,
-       "p": "Log every set with weight, reps and how many you had left. The app fills in what you did last time, tells you when to go heavier and starts the rest timer by itself.",
+       "p": "Your week at a glance: total training time, a bar per day and a comparison with your average over the past four weeks.",
        "b": [
-        "Records shown right away; warm-up sets do not count",
-        "Sets per muscle group per week, with the 10 to 20 sets from research as a guide",
-        "Restart saved workouts in one tap; your watch adds the heart rate"
-       ]
+        "Easy week, in balance or heavy week",
+        "Your next group activity",
+        "Today’s sleep and nutrition, if you track them"
+       ],
+       "s": "Your week at a glance against your average."
+      },
+      {
+       "t": "Weekly review",
+       "live": 1,
+       "p": "A short text about your week, written by fixed rules. No AI is involved, so it costs nothing extra and you know where the advice comes from.",
+       "b": [
+        "Your longest session of the week",
+        "Warns you when you do far more than usual",
+        "Takes short nights into account"
+       ],
+       "s": "A short explanation of your week, without AI."
       },
       {
        "t": "Heart rate and lab test",
@@ -997,7 +1159,8 @@ window.SP_CONTENT = {
        "b": [
         "Lactate thresholds, VO2max and zones from the report",
         "Only you see your test results"
-       ]
+       ],
+       "s": "Your zones follow your own test or watch."
       },
       {
        "t": "Recovery and feel",
@@ -1008,27 +1171,180 @@ window.SP_CONTENT = {
         "Your rating counts towards your training load, even without a heart rate monitor",
         "Nothing to fill in daily. If you want to, a ten-second check tells the app how you feel",
         "The coach looks at seven days against your own normal, not a single reading, and only suggests an easy day when feel and measurements agree; all of it stays private"
-       ]
+       ],
+       "s": "How hard it felt next to what your sensor says."
       },
       {
-       "t": "Record and map",
+       "t": "Sleep and nutrition",
        "live": 1,
-       "p": "Record an activity with your phone’s GPS and see your route on a real map. Draw a route yourself, share it or follow it on the go.",
+       "p": "Sleep comes in automatically through Apple Health or Health Connect; you can add energy and carbohydrates yourself if you like.",
        "b": [
-        "Time, distance and pace live on screen",
-        "While following you see the kilometres left and whether you are off the route",
-        "Route as a GPX file for your watch or bike computer"
-       ]
+        "Average sleep over the last seven nights",
+        "Visible only to you",
+        "Switch it off if you do not use it"
+       ],
+       "s": "Sleep comes in by itself; nutrition if you like."
+      }
+     ]
+    },
+    {
+     "h": "Training together",
+     "w": "Kudos, friends and clubs are what bring you back.",
+     "items": [
+      {
+       "t": "Follow, feed and splits",
+       "live": 1,
+       "p": "Follow members from your city or club and see their shared activities in your feed. Give a split to show appreciation and leave a comment.",
+       "b": [
+        "Choose per activity whether it appears in the feed",
+        "Members see the name, sport, distance, time, heart rate and the line of your route",
+        "Hide your heart rate with one switch; your privacy zone is always left out"
+       ],
+       "s": "Follow members, see their workouts and give a split."
       },
       {
-       "t": "Zones, form and records",
+       "t": "Training partners in your city",
        "live": 1,
-       "p": "Per session your time in five heart rate zones and your power. Across weeks your fitness and fatigue, and your fastest times.",
+       "p": "Suggestions for members in your own city who go about as fast and as far as you, do the same sport and train at the same moments. You only share averages, your sports, roughly when you train and an age group.",
        "b": [
-        "Records over 1, 5 and 10 km, half and full marathon, and 10, 40 and 100 km on the bike",
-        "Form calculated from duration and heart rate",
-        "Monthly challenges, badges and a year in review"
-       ]
+        "Based on your average pace and distance over the past eight weeks",
+        "Members only see averages and an age group, never your year of birth",
+        "Switch it off with one toggle; under 18 you are not included"
+       ],
+       "s": "Members in your city who are as fast as you and train at the same times."
+      },
+      {
+       "t": "Group activities",
+       "live": 1,
+       "p": "Sign up for a run or ride near you, or organise one yourself. With distance, pace, start location and a maximum number of participants.",
+       "b": [
+        "Full is full, then a waiting list that moves up by itself",
+        "See who is coming",
+        "Participation is at your own risk"
+       ],
+       "s": "Join a run or ride nearby, or organise one."
+      },
+      {
+       "t": "Clubs",
+       "live": 1,
+       "p": "Start a club for your running group or cycling club. Members see club activities and each other’s kilometres.",
+       "b": [
+        "Club activities appear under the club’s name",
+        "Join and leave with one tap",
+        "The founder manages the club"
+       ],
+       "s": "Your running group or cycling club in the app."
+      },
+      {
+       "t": "Notifications, messages and photos",
+       "live": 1,
+       "p": "See who gave you a split, commented or started following you. Send a member a private message and add a photo to your activity.",
+       "b": [
+        "Messages are visible only to you and the recipient",
+        "Block a member with one tap; that member is not notified",
+        "Push notifications come with the phone app"
+       ],
+       "s": "Notifications, private messages and photos with your activity."
+      },
+      {
+       "t": "Forum with real kilometres",
+       "live": 1,
+       "p": "Three sections: gear, routes and events. A review of a tyre or shoe shows how many kilometres the writer has in their log.",
+       "b": [
+        "Reply to posts and report them",
+        "Delete your own posts yourself",
+        "Moderated by the administrator"
+       ],
+       "s": "Gear reviews with the writer’s kilometres alongside."
+      }
+     ]
+    },
+    {
+     "h": "Routes and segments",
+     "w": "Finding new loops and getting better on familiar stretches.",
+     "items": [
+      {
+       "t": "Routes from your address",
+       "live": 1,
+       "p": "Pick your sport and distance: the app builds loops from your address or a point you choose, along the paths members use most. With photos that members with a public profile took along the way.",
+       "b": [
+        "Route planner based on OpenStreetMap",
+        "Your address stays private and gets a privacy zone",
+        "As GPX for your watch or bike computer"
+       ],
+       "s": "Loops from your home along the paths members use most."
+      },
+      {
+       "t": "Share routes",
+       "live": 1,
+       "p": "Share a completed activity as a route, with a note on surface or traffic. Others load it onto their bike computer or watch as a GPX file.",
+       "b": [
+        "Only the line and the distance are shared, no times or heart rate",
+        "Your privacy zone is left out",
+        "Routes from your own city come first"
+       ],
+       "s": "Share a ride as a route; others put it on their watch."
+      },
+      {
+       "t": "Segments and leaderboards",
+       "live": 1,
+       "p": "Turn any stretch of your route into a segment. Everyone who passes it and has leaderboards switched on is counted automatically.",
+       "b": [
+        "Leaderboard for your own city or for everyone",
+        "See how many seconds you are off the fastest time",
+        "Your best time is found across all your activities"
+       ],
+       "s": "Make a segment of any stretch and see the leaderboard."
+      },
+      {
+       "t": "Heatmap",
+       "live": 1,
+       "p": "Your own map shows where you ride and run most. The shared map of your city opens once there are enough members.",
+       "b": [
+        "A visible count per city: how many members are still needed",
+        "You contribute anonymously, without times or names",
+        "Those who do not contribute do not see the shared map"
+       ],
+       "s": "Where you and your city train the most."
+      }
+     ]
+    },
+    {
+     "h": "Training with a plan",
+     "w": "A coach, a plan and strength per set, for those who want to train with purpose.",
+     "items": [
+      {
+       "t": "Coach",
+       "live": 1,
+       "p": "A coach in the app that knows your log. It suggests today’s workout, builds a plan towards your goal, finds a route and thinks along when you want to spar.",
+       "b": [
+        "Today’s workout, plans and routes follow fixed rules and cost no computing power",
+        "Only a free-form question goes to a small language model, with a short summary of your training",
+        "Your name, your town and your routes are not sent, and the coach gives no medical advice"
+       ],
+       "s": "A coach who knows your log and thinks along."
+      },
+      {
+       "t": "Training plan",
+       "live": 1,
+       "p": "A build-up towards your goal in training time, not kilometres. The plan starts from what you do per week now and gives every session a suggested workout. It follows fixed rules and has not yet been reviewed by a coach.",
+       "b": [
+        "From 5 km to marathon, 100 and 160 km rides, or building fitness without a race",
+        "Every session with a duration and a workout, for example 6 × 3 minutes hard",
+        "About 8% more per week, a recovery week every fourth week, a taper before race day"
+       ],
+       "s": "A build-up to your goal from what you do now."
+      },
+      {
+       "t": "Strength training per set",
+       "live": 1,
+       "p": "Log every set with weight, reps and how many you had left. The app fills in what you did last time, tells you when to go heavier and starts the rest timer by itself.",
+       "b": [
+        "Records shown right away; warm-up sets do not count",
+        "Sets per muscle group per week, with the 10 to 20 sets from research as a guide",
+        "Restart saved workouts in one tap; your watch adds the heart rate"
+       ],
+       "s": "Log weight, reps and rest for each set."
       },
       {
        "t": "Gym session made for you",
@@ -1039,208 +1355,37 @@ window.SP_CONTENT = {
         "Aimed at running, cycling, tennis or padel, swimming or team sports",
         "Exercise not available? Swap it with one tap. Afterwards everything is in your training log",
         "Sets, reps and rest follow meta-analyses on strength training; each session shows which ones"
-       ]
+       ],
+       "s": "A session made for your time and equipment."
       },
       {
-       "t": "Strength and gear",
+       "t": "Gear and manual entries",
        "live": 1,
-       "p": "Log strength training with exercises, sets, reps and weight. Keep track of the kilometres on your bike or shoes.",
+       "p": "Keep track of the kilometres on your bike or shoes, and add a workout without a watch yourself.",
        "b": [
         "Add an activity by hand as well",
         "Default gear per sport",
         "A nudge when your shoes pass 700 km"
-       ]
-      },
-      {
-       "t": "Coach",
-       "live": 1,
-       "p": "A coach in the app that knows your log. It suggests today’s workout, builds a plan towards your goal, finds a route and thinks along when you want to spar.",
-       "b": [
-        "Today’s workout, plans and routes follow fixed rules and cost no computing power",
-        "Only a free-form question goes to a small language model, with a short summary of your training",
-        "Your name, your town and your routes are not sent, and the coach gives no medical advice"
-       ]
-      },
-      {
-       "t": "Bring your history",
-       "live": 1,
-       "p": "You do not start from zero. Upload the files from your Garmin, Wahoo, COROS, Polar, Suunto or other sports watch, or the zip file of your Garmin or Strava export.",
-       "b": [
-        "FIT, TCX and GPX, also packed as .gz or .zip",
-        "Files are read on your own device",
-        "Duplicate activities are skipped"
-       ]
-      },
-      {
-       "t": "Every sport your watch records",
-       "live": 1,
-       "p": "Not just cycling and running: 85 sports in eleven groups, from padel and tennis to kitesurfing, ski touring and boxing. Everything your watch records lands in your log, including sessions without GPS.",
-       "b": [
-        "Swimming, rowing, skating, skiing, cross-country skiing, walking and more",
-        "Strength, yoga, treadmill and indoor cycling, with time, heart rate and energy",
-        "Pace in the unit of the sport: per km, km/h or per 100 metres"
-       ]
-      },
-      {
-       "t": "Training log",
-       "live": 1,
-       "p": "Every session with its route, distance, moving time, pace or speed, elevation gain, average and maximum heart rate and energy.",
-       "b": [
-        "Rename and change the sport afterwards",
-        "More than 25 sports",
-        "You choose which activities you share"
-       ]
-      },
-      {
-       "t": "Today",
-       "live": 1,
-       "p": "Your week at a glance: total training time, a bar per day and a comparison with your average over the past four weeks.",
-       "b": [
-        "Easy week, in balance or heavy week",
-        "Your next group activity",
-        "Today’s sleep and nutrition, if you track them"
-       ]
-      },
-      {
-       "t": "Weekly review",
-       "live": 1,
-       "p": "A short text about your week, written by fixed rules. No AI is involved, so it costs nothing extra and you know where the advice comes from.",
-       "b": [
-        "Your longest session of the week",
-        "Warns you when you do far more than usual",
-        "Takes short nights into account"
-       ]
-      },
-      {
-       "t": "Training plan",
-       "live": 1,
-       "p": "A build-up towards your goal in training time, not kilometres. The plan starts from what you do per week now and gives every session a suggested workout. It follows fixed rules and has not yet been reviewed by a coach.",
-       "b": [
-        "From 5 km to marathon, 100 and 160 km rides, or building fitness without a race",
-        "Every session with a duration and a workout, for example 6 × 3 minutes hard",
-        "About 8% more per week, a recovery week every fourth week, a taper before race day"
-       ]
-      },
-      {
-       "t": "Sleep and nutrition",
-       "live": 1,
-       "p": "Sleep comes in automatically through Apple Health or Health Connect; you can add energy and carbohydrates yourself if you like.",
-       "b": [
-        "Average sleep over the last seven nights",
-        "Visible only to you",
-        "Switch it off if you do not use it"
-       ]
-      }
-     ]
-    },
-    {
-     "h": "Together in your city",
-     "items": [
-      {
-       "t": "Notifications, messages and photos",
-       "live": 1,
-       "p": "See who gave you a split, commented or started following you. Send a member a private message and add a photo to your activity.",
-       "b": [
-        "Messages are visible only to you and the recipient",
-        "Block a member with one tap; that member is not notified",
-        "Push notifications come with the phone app"
-       ]
-      },
-      {
-       "t": "Training partners in your city",
-       "live": 1,
-       "p": "Suggestions for members in your own city who go about as fast and as far as you, do the same sport and train at the same moments. You only share averages, your sports, roughly when you train and an age group.",
-       "b": [
-        "Based on your average pace and distance over the past eight weeks",
-        "Members only see averages and an age group, never your year of birth",
-        "Switch it off with one toggle; under 18 you are not included"
-       ]
-      },
-      {
-       "t": "Follow, feed and splits",
-       "live": 1,
-       "p": "Follow members from your city or club and see their shared activities in your feed. Give a split to show appreciation and leave a comment.",
-       "b": [
-        "Choose per activity whether it appears in the feed",
-        "Members see the name, sport, distance, time, heart rate and the line of your route",
-        "Hide your heart rate with one switch; your privacy zone is always left out"
-       ]
-      },
-      {
-       "t": "Segments and leaderboards",
-       "live": 1,
-       "p": "Turn any stretch of your route into a segment. Everyone who passes it and has leaderboards switched on is counted automatically.",
-       "b": [
-        "Leaderboard for your own city or for everyone",
-        "See how many seconds you are off the fastest time",
-        "Your best time is found across all your activities"
-       ]
-      },
-      {
-       "t": "Heatmap",
-       "live": 1,
-       "p": "Your own map shows where you ride and run most. The shared map of your city opens once there are enough members.",
-       "b": [
-        "A visible count per city: how many members are still needed",
-        "You contribute anonymously, without times or names",
-        "Those who do not contribute do not see the shared map"
-       ]
-      },
-      {
-       "t": "Group activities",
-       "live": 1,
-       "p": "Sign up for a run or ride near you, or organise one yourself. With distance, pace, start location and a maximum number of participants.",
-       "b": [
-        "Full is full, then a waiting list that moves up by itself",
-        "See who is coming",
-        "Participation is at your own risk"
-       ]
-      },
-      {
-       "t": "Clubs",
-       "live": 1,
-       "p": "Start a club for your running group or cycling club. Members see club activities and each other’s kilometres.",
-       "b": [
-        "Club activities appear under the club’s name",
-        "Join and leave with one tap",
-        "The founder manages the club"
-       ]
-      },
-      {
-       "t": "Forum with real kilometres",
-       "live": 1,
-       "p": "Three sections: gear, routes and events. A review of a tyre or shoe shows how many kilometres the writer has in their log.",
-       "b": [
-        "Reply to posts and report them",
-        "Delete your own posts yourself",
-        "Moderated by the administrator"
-       ]
-      },
-      {
-       "t": "Share routes",
-       "live": 1,
-       "p": "Share a completed activity as a route, with a note on surface or traffic. Others load it onto their bike computer or watch as a GPX file.",
-       "b": [
-        "Only the line and the distance are shared, no times or heart rate",
-        "Your privacy zone is left out",
-        "Routes from your own city come first"
-       ]
-      },
-      {
-       "t": "Routes from your address",
-       "live": 1,
-       "p": "Pick your sport and distance: the app builds loops from your address or a point you choose, along the paths members use most. With photos that members with a public profile took along the way.",
-       "b": [
-        "Route planner based on OpenStreetMap",
-        "Your address stays private and gets a privacy zone",
-        "As GPX for your watch or bike computer"
-       ]
+       ],
+       "s": "Kilometres on your bike and shoes, and workouts without a watch."
       }
      ]
     },
     {
      "h": "You decide",
+     "w": "What you share, what you switch on and what happens to your data.",
      "items": [
+      {
+       "t": "Privacy",
+       "live": 1,
+       "p": "You decide what you share. What you do not share, only you can see. A privacy zone also keeps 400 metres around your start point out of the heatmap, segments and shared routes.",
+       "b": [
+        "Take all your data with you in one go",
+        "Erase everything of yours with one button",
+        "Stored in the EU, no selling of data"
+       ],
+       "s": "You choose what you share; your starting point stays hidden."
+      },
       {
        "t": "Your data, your choice",
        "live": 1,
@@ -1249,7 +1394,19 @@ window.SP_CONTENT = {
         "By default you are out; taking part requires explicit consent per offer",
         "You see in advance who wants the data, which data and what for",
         "You can stop at any time; your name, messages and photos are never supplied"
-       ]
+       ],
+       "s": "No selling of data; you decide on each offer."
+      },
+      {
+       "t": "Models owned by members",
+       "live": 1,
+       "p": "The training of all members together makes the plans and advice better. You take part by default, without your name, photo or route, and you can switch it off whenever you like.",
+       "b": [
+        "Heart rate, recovery and injuries only count if you switch that on yourself",
+        "Members who take part get the improved models; switch it off and you keep the standard rules",
+        "A model trained on member data is not sold without a vote of the members"
+       ],
+       "s": "Better advice together, anonymous and easy to switch off."
       },
       {
        "t": "Modules on and off",
@@ -1259,17 +1416,8 @@ window.SP_CONTENT = {
         "What is off disappears from your screen",
         "Leaderboards off means your times are not shared",
         "Heatmap off means your routes do not count"
-       ]
-      },
-      {
-       "t": "Privacy",
-       "live": 1,
-       "p": "You decide what you share. What you do not share, only you can see. A privacy zone also keeps 400 metres around your start point out of the heatmap, segments and shared routes.",
-       "b": [
-        "Take all your data with you in one go",
-        "Erase everything of yours with one button",
-        "Stored in the EU, no selling of data"
-       ]
+       ],
+       "s": "Switch on only what you use."
       },
       {
        "t": "Owner page",
@@ -1278,18 +1426,21 @@ window.SP_CONTENT = {
        "b": [
         "One member, one vote",
         "You see the result after you have voted"
-       ]
+       ],
+       "s": "Your member number, votes and the company’s figures."
       }
      ]
     },
     {
      "h": "Coming up",
+     "w": "What we are working on now.",
      "items": [
       {
        "t": "App for iPhone and Android",
        "live": 0,
        "p": "The iPhone app is in TestFlight for the first testers; the Android app is being tested. The App Store and Google Play follow after testing.",
-       "b": []
+       "b": [],
+       "s": "The iPhone app is in testing, Android follows."
       },
       {
        "t": "Direct link with your watch",
@@ -1297,11 +1448,50 @@ window.SP_CONTENT = {
        "p": "Garmin, Oura and Whoop already come in through Apple Health and Health Connect. Direct links with Garmin, Oura, Whoop, Wahoo, COROS and Polar will follow; members vote on the order.",
        "b": [
         "Until then every brand works through files or your phone"
-       ]
+       ],
+       "s": "Garmin, Oura and Whoop connected directly."
       }
      ]
     }
-   ]
+   ],
+   "why": {
+    "h": "Why this order",
+    "p": "We looked at research into what people do with sports apps and watches, and what keeps them coming back.",
+    "b": [
+     "Keeping track and seeing progress are the features people use most; in a study of Fitbit users, updating and reminding came first.",
+     "Connecting your watch comes first: what your watch measures is the basis for everything else.",
+     "Training together keeps people engaged: Strava saw 14 billion kudos in 2025 and the number of clubs nearly quadrupled. People who share their workouts publicly keep using a tracker longer, a long-running study found.",
+     "Routes are in demand: on Strava a new route was created every 19 seconds in 2025.",
+     "A coach is a growing wish: 46% of 30,000 people surveyed would use AI as a coach.",
+     "More than 45% worry about the safety of their health data, yet few people set their privacy themselves. That is why you choose what you share for each part, and we do not sell data."
+    ],
+    "src": [
+     [
+      "Fitbit users, JMIR Human Factors 2026",
+      "https://humanfactors.jmir.org/2026/1/e85412"
+     ],
+     [
+      "Strava Year in Sport 2025",
+      "https://www.prnewswire.co.uk/news-releases/strava-releases-12th-annual-year-in-sport-trend-report-revealing-that-doomscrolling-is-out-movement-is-in-302631130.html"
+     ],
+     [
+      "Sharing and sustained use, 2021",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC7982124"
+     ],
+     [
+      "Use of privacy features, CHI 2026",
+      "https://elathan.github.io/papers/chi26.pdf"
+     ],
+     [
+      "Worries about health data, Healthline",
+      "https://www.bitdefender.com/en-gb/blog/hotforsecurity/one-in-two-users-fears-personal-health-data-is-unsafe-on-fitness-apps-and-gadgets"
+     ]
+    ],
+    "srch": "Sources"
+   },
+   "more": "More",
+   "open": "Open all",
+   "close": "Close all"
   },
   "own": {
    "eyebrow": "Ownership",
@@ -1695,23 +1885,14 @@ window.SP_CONTENT = {
   "feat": {
    "eyebrow": "Funktionen",
    "h1": "Was die App kann",
-   "lead": "Bei jeder Funktion steht, ob sie heute in der Testversion funktioniert oder noch gebaut wird. Wir versprechen nichts, was es nicht gibt.",
+   "lead": "Sortiert nach dem, was Sportlern am wichtigsten ist. Tippe auf eine Funktion für die Erklärung. Bei jeder Funktion steht, ob sie heute in der Testversion funktioniert oder noch gebaut wird.",
    "live": "Funktioniert in der Testversion",
    "dev": "In Entwicklung",
    "groups": [
     {
-     "h": "Deine Daten und dein Überblick",
+     "h": "Deine Trainings, ganz von selbst",
+     "w": "Wofür Menschen eine Sport-App am meisten nutzen: festhalten, was sie tun, ohne Aufwand.",
      "items": [
-      {
-       "t": "Modelle der Mitglieder",
-       "live": 1,
-       "p": "Das Training aller Mitglieder zusammen macht Pläne und Empfehlungen besser. Du machst standardmäßig mit, ohne Name, Foto oder Route, und kannst es jederzeit abschalten.",
-       "b": [
-        "Herzfrequenz, Erholung und Verletzungen zählen nur, wenn du das selbst einschaltest",
-        "Wer mitmacht, bekommt die verbesserten Modelle; wer es abschaltet, behält die Standardregeln",
-        "Ein mit Mitgliederdaten trainiertes Modell wird nicht ohne Abstimmung der Mitglieder verkauft"
-       ]
-      },
       {
        "t": "Apple Health und Health Connect",
        "live": 1,
@@ -1719,8 +1900,59 @@ window.SP_CONTENT = {
        "b": [
         "iPhone-App in TestFlight, Android-App im Test",
         "Direkte Verbindungen mit Garmin, Oura und Whoop folgen"
-       ]
+       ],
+       "s": "Einmal verbinden; Trainings, Puls und Schlaf kommen von selbst."
       },
+      {
+       "t": "Alle Sportarten deiner Uhr",
+       "live": 1,
+       "p": "Nicht nur Radfahren und Laufen: 85 Sportarten in elf Gruppen, von Padel und Tennis bis Kitesurfen, Skitouren und Boxen. Alles, was deine Uhr aufzeichnet, landet im Logbuch, auch Einheiten ohne GPS.",
+       "b": [
+        "Schwimmen, Rudern, Eislaufen, Skifahren, Langlauf, Wandern und mehr",
+        "Krafttraining, Yoga, Laufband und Indoor-Cycling, mit Zeit, Herzfrequenz und Energie",
+        "Tempo in der Einheit der Sportart: pro km, km/h oder pro 100 Meter"
+       ],
+       "s": "85 Sportarten, von Padel bis Skitouren, auch ohne GPS."
+      },
+      {
+       "t": "Deine Historie mitnehmen",
+       "live": 1,
+       "p": "Du fängst nicht bei null an. Lade die Dateien deiner Garmin, Wahoo, COROS, Polar, Suunto oder einer anderen Sportuhr hoch, oder die Zip-Datei deines Garmin- oder Strava-Exports.",
+       "b": [
+        "FIT, TCX und GPX, auch als .gz oder .zip verpackt",
+        "Die Dateien werden auf deinem eigenen Gerät ausgelesen",
+        "Doppelte Aktivitäten werden übersprungen"
+       ],
+       "s": "Nimm deine Trainings von Garmin, Strava und anderen mit."
+      },
+      {
+       "t": "Aufzeichnen und Karte",
+       "live": 1,
+       "p": "Zeichne eine Aktivität mit dem GPS deines Handys auf und sieh deine Route auf einer echten Karte. Zeichne selbst eine Route, teile sie oder folge ihr unterwegs.",
+       "b": [
+        "Zeit, Distanz und Tempo live im Blick",
+        "Beim Folgen siehst du die verbleibenden Kilometer und ob du von der Route abgekommen bist",
+        "Route als GPX-Datei für Uhr oder Radcomputer"
+       ],
+       "s": "Mit dem Handy aufzeichnen und die Route auf der Karte sehen."
+      },
+      {
+       "t": "Logbuch",
+       "live": 1,
+       "p": "Jedes Training mit Route, Distanz, Zeit in Bewegung, Tempo oder Geschwindigkeit, Höhenmetern, durchschnittlicher und maximaler Herzfrequenz und Energie.",
+       "b": [
+        "Name und Sportart nachträglich änderbar",
+        "Mehr als 25 Sportarten",
+        "Du wählst selbst, welche Aktivitäten du teilst"
+       ],
+       "s": "Alle Trainings an einem Ort, mit den wichtigsten Zahlen."
+      }
+     ]
+    },
+    {
+     "h": "Sehen, dass du besser wirst",
+     "w": "Fortschritt zu sehen hält motiviert und ist der zweite Grund, eine App weiter zu nutzen.",
+     "items": [
       {
        "t": "Diagramme zu jedem Training",
        "live": 1,
@@ -1729,7 +1961,19 @@ window.SP_CONTENT = {
         "Splits pro Kilometer, Leistungskurve und Herzfrequenzdrift",
         "Was pro Sportart zählt: Spitzen bei Padel und Teamsport, Abfahrten beim Skifahren",
         "Steigungsbereinigtes Tempo beim Laufen"
-       ]
+       ],
+       "s": "Puls, Tempo, Leistung und mehr, mit Zoom."
+      },
+      {
+       "t": "Zonen, Form und Rekorde",
+       "live": 1,
+       "p": "Pro Training deine Zeit in fünf Herzfrequenzzonen und deine Leistung. Über Wochen deine Fitness und Ermüdung sowie deine schnellsten Zeiten.",
+       "b": [
+        "Rekorde über 1, 5 und 10 km, Halbmarathon und Marathon sowie 10, 40 und 100 km auf dem Rad",
+        "Form berechnet aus Dauer und Herzfrequenz",
+        "Monatliche Challenges, Abzeichen und ein Jahresrückblick"
+       ],
+       "s": "Deine Pulszonen, deine Form über Wochen und deine schnellsten Zeiten."
       },
       {
        "t": "Tennis, Padel und Fußball",
@@ -1739,17 +1983,30 @@ window.SP_CONTENT = {
         "Fußball: hohe Geschwindigkeit ab 19,8 km/h, Sprints ab 25,2 km/h, erste gegen zweite Halbzeit",
         "Tennis und Padel: Spiel gegen Pause, geschätzte Ballwechsel und wie schnell dein Puls zwischen den Punkten sinkt",
         "Asse, Winner und Fehler oder deine Tore und Vorlagen trägst du selbst ein; Uhren speichern keine Schläge"
-       ]
+       ],
+       "s": "Sprints, Ballwechsel, Heatmap und dein Ergebnis pro Spiel."
       },
       {
-       "t": "Krafttraining pro Satz",
+       "t": "Heute",
        "live": 1,
-       "p": "Erfasse jeden Satz mit Gewicht, Wiederholungen und wie viele noch gegangen wären. Die App übernimmt, was du letztes Mal gemacht hast, sagt dir, wann du steigern kannst, und startet die Pause von selbst.",
+       "p": "Deine Woche auf einen Blick: gesamte Trainingszeit, ein Balken pro Tag und ein Vergleich mit deinem Schnitt der letzten vier Wochen.",
        "b": [
-        "Rekorde sofort sichtbar, Aufwärmsätze zählen nicht",
-        "Sätze pro Muskelgruppe pro Woche, mit den 10 bis 20 Sätzen aus der Forschung als Richtwert",
-        "Feste Trainings mit einem Tipp neu starten; deine Uhr ergänzt den Puls"
-       ]
+        "Ruhige Woche, im Gleichgewicht oder harte Woche",
+        "Deine nächste Gruppenaktivität",
+        "Schlaf und Ernährung von heute, wenn du sie erfasst"
+       ],
+       "s": "Deine Woche auf einen Blick im Vergleich zu deinem Schnitt."
+      },
+      {
+       "t": "Wochenanalyse",
+       "live": 1,
+       "p": "Ein kurzer Text über deine Woche, erstellt nach festen Regeln. Es ist keine KI im Spiel, also kostet es nichts extra und du weißt, woher der Rat kommt.",
+       "b": [
+        "Dein längstes Training der Woche",
+        "Warnt, wenn du deutlich mehr machst als gewohnt",
+        "Berücksichtigt kurze Nächte"
+       ],
+       "s": "Eine kurze Erklärung zu deiner Woche, ohne KI."
       },
       {
        "t": "Herzfrequenz und Leistungstest",
@@ -1758,7 +2015,8 @@ window.SP_CONTENT = {
        "b": [
         "Laktatschwellen, VO2max und Zonen aus dem Bericht",
         "Nur du siehst deine Testergebnisse"
-       ]
+       ],
+       "s": "Deine Zonen richten sich nach deinem Test oder deiner Uhr."
       },
       {
        "t": "Erholung und Gefühl",
@@ -1769,27 +2027,180 @@ window.SP_CONTENT = {
         "Deine Note zählt zur Belastung, auch ohne Pulsmesser",
         "Du musst nichts täglich eintragen. Wenn du willst, gibst du in zehn Sekunden an, wie du dich fühlst",
         "Der Coach betrachtet sieben Tage im Vergleich zu deinem eigenen Normalwert, nicht eine einzelne Messung, und schlägt erst dann einen lockeren Tag vor, wenn Gefühl und Messwerte übereinstimmen; alles bleibt privat"
-       ]
+       ],
+       "s": "Wie schwer es sich anfühlte, neben dem, was dein Sensor sagt."
       },
       {
-       "t": "Aufzeichnen und Karte",
+       "t": "Schlaf und Ernährung",
        "live": 1,
-       "p": "Zeichne eine Aktivität mit dem GPS deines Handys auf und sieh deine Route auf einer echten Karte. Zeichne selbst eine Route, teile sie oder folge ihr unterwegs.",
+       "p": "Schlaf kommt automatisch über Apple Health oder Health Connect herein; Energie und Kohlenhydrate trägst du selbst ein, wenn du möchtest.",
        "b": [
-        "Zeit, Distanz und Tempo live im Blick",
-        "Beim Folgen siehst du die verbleibenden Kilometer und ob du von der Route abgekommen bist",
-        "Route als GPX-Datei für Uhr oder Radcomputer"
-       ]
+        "Durchschnittlicher Schlaf der letzten sieben Nächte",
+        "Nur für dich sichtbar",
+        "Abschaltbar, wenn du es nicht nutzt"
+       ],
+       "s": "Schlaf kommt von selbst; Ernährung, wenn du willst."
+      }
+     ]
+    },
+    {
+     "h": "Gemeinsam Sport treiben",
+     "w": "Anerkennung, Freunde und Clubs sorgen dafür, dass du wiederkommst.",
+     "items": [
+      {
+       "t": "Folgen, Feed und Splits",
+       "live": 1,
+       "p": "Folge Mitgliedern aus deiner Stadt oder deinem Club und sieh ihre geteilten Aktivitäten in deinem Feed. Gib einen Split als Anerkennung und hinterlasse einen Kommentar.",
+       "b": [
+        "Pro Aktivität entscheidest du, ob sie im Feed erscheint",
+        "Mitglieder sehen Name, Sportart, Distanz, Zeit, Herzfrequenz und die Linie deiner Route",
+        "Deine Herzfrequenz blendest du mit einem Schalter aus; deine Privatzone wird immer ausgelassen"
+       ],
+       "s": "Folge Mitgliedern, sieh ihre Trainings und gib einen Split."
       },
       {
-       "t": "Zonen, Form und Rekorde",
+       "t": "Trainingspartner in deiner Stadt",
        "live": 1,
-       "p": "Pro Training deine Zeit in fünf Herzfrequenzzonen und deine Leistung. Über Wochen deine Fitness und Ermüdung sowie deine schnellsten Zeiten.",
+       "p": "Vorschläge für Mitglieder in deiner Stadt, die ungefähr so schnell und so weit unterwegs sind wie du, dieselbe Sportart machen und zu denselben Zeiten trainieren. Du teilst nur Durchschnittswerte, deine Sportarten, grob wann du trainierst und eine Altersgruppe.",
        "b": [
-        "Rekorde über 1, 5 und 10 km, Halbmarathon und Marathon sowie 10, 40 und 100 km auf dem Rad",
-        "Form berechnet aus Dauer und Herzfrequenz",
-        "Monatliche Challenges, Abzeichen und ein Jahresrückblick"
-       ]
+        "Auf Basis deines durchschnittlichen Tempos und deiner Distanz der letzten acht Wochen",
+        "Mitglieder sehen nur Durchschnittswerte und eine Altersgruppe, nie dein Geburtsjahr",
+        "Mit einem Schalter abschaltbar; unter 18 nimmst du nicht teil"
+       ],
+       "s": "Mitglieder in deiner Stadt, die gleich schnell und zur gleichen Zeit trainieren."
+      },
+      {
+       "t": "Gruppenaktivitäten",
+       "live": 1,
+       "p": "Melde dich für einen Lauf oder eine Ausfahrt in deiner Nähe an, oder organisiere selbst eine. Mit Distanz, Tempo, Startort und maximaler Teilnehmerzahl.",
+       "b": [
+        "Voll ist voll, danach eine Warteliste, die von selbst nachrückt",
+        "Du siehst, wer mitkommt",
+        "Teilnahme auf eigene Gefahr"
+       ],
+       "s": "Mach bei einem Lauf oder einer Ausfahrt mit, oder organisiere eine."
+      },
+      {
+       "t": "Clubs",
+       "live": 1,
+       "p": "Gründe einen Club für deine Laufgruppe oder deinen Radsportverein. Mitglieder sehen die Clubaktivitäten und die Kilometer der anderen.",
+       "b": [
+        "Clubaktivitäten stehen unter dem Namen des Clubs",
+        "Beitreten und verlassen mit einem Tipp",
+        "Der Gründer verwaltet den Club"
+       ],
+       "s": "Deine Laufgruppe oder dein Radverein in der App."
+      },
+      {
+       "t": "Mitteilungen, Nachrichten und Fotos",
+       "live": 1,
+       "p": "Sieh, wer dir einen Split gegeben, kommentiert oder dir gefolgt ist. Schick einem Mitglied eine private Nachricht und füge deiner Aktivität ein Foto hinzu.",
+       "b": [
+        "Nachrichten sind nur für dich und den Empfänger sichtbar",
+        "Ein Mitglied mit einem Tipp blockieren; es wird nicht benachrichtigt",
+        "Push-Mitteilungen kommen mit der Handy-App"
+       ],
+       "s": "Benachrichtigungen, private Nachrichten und Fotos zu deiner Aktivität."
+      },
+      {
+       "t": "Forum mit echten Kilometern",
+       "live": 1,
+       "p": "Drei Rubriken: Material, Routen und Veranstaltungen. Bei einer Bewertung eines Reifens oder Schuhs siehst du, wie viele Kilometer der Autor im Logbuch hat.",
+       "b": [
+        "Antworten und Beiträge melden",
+        "Eigene Beiträge löschst du selbst",
+        "Moderation durch den Administrator"
+       ],
+       "s": "Materialtests mit den Kilometern des Schreibers dabei."
+      }
+     ]
+    },
+    {
+     "h": "Routen und Segmente",
+     "w": "Neue Runden finden und auf bekannten Abschnitten besser werden.",
+     "items": [
+      {
+       "t": "Routen ab deiner Adresse",
+       "live": 1,
+       "p": "Wähle Sportart und Distanz: Die App plant Runden ab deiner Adresse oder einem Punkt deiner Wahl, entlang der Wege, die Mitglieder am meisten nutzen. Mit Fotos, die Mitglieder mit öffentlichem Profil unterwegs gemacht haben.",
+       "b": [
+        "Routenplaner auf Basis von OpenStreetMap",
+        "Deine Adresse bleibt privat und bekommt eine Privatsphärezone",
+        "Als GPX für Uhr oder Radcomputer"
+       ],
+       "s": "Runden ab deiner Haustür über die Wege, die Mitglieder am meisten nutzen."
+      },
+      {
+       "t": "Routen teilen",
+       "live": 1,
+       "p": "Teile eine gefahrene Aktivität als Route, mit einem Hinweis zu Belag oder Verkehr. Andere laden sie als GPX auf ihren Radcomputer oder ihre Uhr.",
+       "b": [
+        "Nur die Linie und die Distanz werden geteilt, keine Zeiten oder Herzfrequenz",
+        "Deine Privatzone wird ausgelassen",
+        "Routen aus deiner Stadt stehen oben"
+       ],
+       "s": "Teile eine Fahrt als Route; andere laden sie auf ihre Uhr."
+      },
+      {
+       "t": "Segmente und Ranglisten",
+       "live": 1,
+       "p": "Mach aus jedem Stück deiner Route ein Segment. Jeder, der dort vorbeikommt und Ranglisten eingeschaltet hat, zählt automatisch mit.",
+       "b": [
+        "Rangliste für deine Stadt oder für alle",
+        "Du siehst, wie viele Sekunden dir zur Bestzeit fehlen",
+        "Deine beste Zeit wird in all deinen Aktivitäten erkannt"
+       ],
+       "s": "Mach aus jedem Abschnitt ein Segment und sieh die Rangliste."
+      },
+      {
+       "t": "Heatmap",
+       "live": 1,
+       "p": "Deine eigene Karte zeigt, wo du am meisten fährst und läufst. Die gemeinsame Karte deiner Stadt öffnet sich, sobald es genug Mitglieder gibt.",
+       "b": [
+        "Sichtbarer Stand pro Stadt: wie viele Mitglieder noch fehlen",
+        "Du trägst anonym bei, ohne Zeiten oder Namen",
+        "Wer nicht beiträgt, sieht die gemeinsame Karte nicht"
+       ],
+       "s": "Wo du und deine Stadt am meisten trainieren."
+      }
+     ]
+    },
+    {
+     "h": "Mit Plan trainieren",
+     "w": "Ein Coach, ein Plan und Kraft pro Satz, für alle, die gezielt trainieren wollen.",
+     "items": [
+      {
+       "t": "Coach",
+       "live": 1,
+       "p": "Ein Coach in der App, der dein Logbuch kennt. Er schlägt das Training für heute vor, baut einen Plan zu deinem Ziel, sucht eine Route und denkt mit, wenn du dich austauschen willst.",
+       "b": [
+        "Das Training für heute, Pläne und Routen folgen festen Regeln und kosten keine Rechenleistung",
+        "Nur eine frei formulierte Frage geht an ein kleines Sprachmodell, mit einer kurzen Zusammenfassung deines Trainings",
+        "Dein Name, dein Wohnort und deine Routen werden nicht mitgeschickt, und der Coach gibt keinen medizinischen Rat"
+       ],
+       "s": "Ein Coach, der dein Trainingsbuch kennt und mitdenkt."
+      },
+      {
+       "t": "Trainingsplan",
+       "live": 1,
+       "p": "Ein Aufbau zu deinem Ziel in Trainingszeit, nicht in Kilometern. Der Plan beginnt bei dem, was du jetzt pro Woche machst, und gibt jeder Einheit einen Inhalt. Er folgt festen Regeln und wurde noch nicht von einem Trainer geprüft.",
+       "b": [
+        "Von 5 km bis Marathon, Touren über 100 und 160 km oder Fitness aufbauen ohne Wettkampf",
+        "Jede Einheit mit Dauer und Inhalt, zum Beispiel 6 × 3 Minuten hart",
+        "Etwa 8% mehr pro Woche, jede vierte Woche Erholung, Tapering vor dem Wettkampf"
+       ],
+       "s": "Ein Aufbau zu deinem Ziel, ausgehend von dem, was du jetzt machst."
+      },
+      {
+       "t": "Krafttraining pro Satz",
+       "live": 1,
+       "p": "Erfasse jeden Satz mit Gewicht, Wiederholungen und wie viele noch gegangen wären. Die App übernimmt, was du letztes Mal gemacht hast, sagt dir, wann du steigern kannst, und startet die Pause von selbst.",
+       "b": [
+        "Rekorde sofort sichtbar, Aufwärmsätze zählen nicht",
+        "Sätze pro Muskelgruppe pro Woche, mit den 10 bis 20 Sätzen aus der Forschung als Richtwert",
+        "Feste Trainings mit einem Tipp neu starten; deine Uhr ergänzt den Puls"
+       ],
+       "s": "Gewicht, Wiederholungen und Pause pro Satz erfassen."
       },
       {
        "t": "Gym-Einheit nach Maß",
@@ -1800,208 +2211,37 @@ window.SP_CONTENT = {
         "Ausgerichtet auf Laufen, Radfahren, Tennis oder Padel, Schwimmen oder Teamsport",
         "Übung nicht möglich? Tausche sie mit einem Tipp. Danach steht alles in deinem Trainingslog",
         "Sätze, Wiederholungen und Pausen folgen Meta-Analysen zum Krafttraining; jede Einheit zeigt, welche"
-       ]
+       ],
+       "s": "Eine Einheit passend zu deiner Zeit und deinem Material."
       },
       {
-       "t": "Kraft und Material",
+       "t": "Material und eigene Einträge",
        "live": 1,
-       "p": "Halte Krafttraining mit Übungen, Sätzen, Wiederholungen und Gewicht fest. Behalte die Kilometer auf deinem Rad oder deinen Schuhen im Blick.",
+       "p": "Behalte die Kilometer auf deinem Rad oder deinen Schuhen im Blick und trag ein Training ohne Uhr selbst ein.",
        "b": [
         "Aktivitäten auch von Hand hinzufügen",
         "Standardmaterial pro Sportart",
         "Ein Hinweis, wenn deine Schuhe über 700 km kommen"
-       ]
-      },
-      {
-       "t": "Coach",
-       "live": 1,
-       "p": "Ein Coach in der App, der dein Logbuch kennt. Er schlägt das Training für heute vor, baut einen Plan zu deinem Ziel, sucht eine Route und denkt mit, wenn du dich austauschen willst.",
-       "b": [
-        "Das Training für heute, Pläne und Routen folgen festen Regeln und kosten keine Rechenleistung",
-        "Nur eine frei formulierte Frage geht an ein kleines Sprachmodell, mit einer kurzen Zusammenfassung deines Trainings",
-        "Dein Name, dein Wohnort und deine Routen werden nicht mitgeschickt, und der Coach gibt keinen medizinischen Rat"
-       ]
-      },
-      {
-       "t": "Deine Historie mitnehmen",
-       "live": 1,
-       "p": "Du fängst nicht bei null an. Lade die Dateien deiner Garmin, Wahoo, COROS, Polar, Suunto oder einer anderen Sportuhr hoch, oder die Zip-Datei deines Garmin- oder Strava-Exports.",
-       "b": [
-        "FIT, TCX und GPX, auch als .gz oder .zip verpackt",
-        "Die Dateien werden auf deinem eigenen Gerät ausgelesen",
-        "Doppelte Aktivitäten werden übersprungen"
-       ]
-      },
-      {
-       "t": "Alle Sportarten deiner Uhr",
-       "live": 1,
-       "p": "Nicht nur Radfahren und Laufen: 85 Sportarten in elf Gruppen, von Padel und Tennis bis Kitesurfen, Skitouren und Boxen. Alles, was deine Uhr aufzeichnet, landet im Logbuch, auch Einheiten ohne GPS.",
-       "b": [
-        "Schwimmen, Rudern, Eislaufen, Skifahren, Langlauf, Wandern und mehr",
-        "Krafttraining, Yoga, Laufband und Indoor-Cycling, mit Zeit, Herzfrequenz und Energie",
-        "Tempo in der Einheit der Sportart: pro km, km/h oder pro 100 Meter"
-       ]
-      },
-      {
-       "t": "Logbuch",
-       "live": 1,
-       "p": "Jedes Training mit Route, Distanz, Zeit in Bewegung, Tempo oder Geschwindigkeit, Höhenmetern, durchschnittlicher und maximaler Herzfrequenz und Energie.",
-       "b": [
-        "Name und Sportart nachträglich änderbar",
-        "Mehr als 25 Sportarten",
-        "Du wählst selbst, welche Aktivitäten du teilst"
-       ]
-      },
-      {
-       "t": "Heute",
-       "live": 1,
-       "p": "Deine Woche auf einen Blick: gesamte Trainingszeit, ein Balken pro Tag und ein Vergleich mit deinem Schnitt der letzten vier Wochen.",
-       "b": [
-        "Ruhige Woche, im Gleichgewicht oder harte Woche",
-        "Deine nächste Gruppenaktivität",
-        "Schlaf und Ernährung von heute, wenn du sie erfasst"
-       ]
-      },
-      {
-       "t": "Wochenanalyse",
-       "live": 1,
-       "p": "Ein kurzer Text über deine Woche, erstellt nach festen Regeln. Es ist keine KI im Spiel, also kostet es nichts extra und du weißt, woher der Rat kommt.",
-       "b": [
-        "Dein längstes Training der Woche",
-        "Warnt, wenn du deutlich mehr machst als gewohnt",
-        "Berücksichtigt kurze Nächte"
-       ]
-      },
-      {
-       "t": "Trainingsplan",
-       "live": 1,
-       "p": "Ein Aufbau zu deinem Ziel in Trainingszeit, nicht in Kilometern. Der Plan beginnt bei dem, was du jetzt pro Woche machst, und gibt jeder Einheit einen Inhalt. Er folgt festen Regeln und wurde noch nicht von einem Trainer geprüft.",
-       "b": [
-        "Von 5 km bis Marathon, Touren über 100 und 160 km oder Fitness aufbauen ohne Wettkampf",
-        "Jede Einheit mit Dauer und Inhalt, zum Beispiel 6 × 3 Minuten hart",
-        "Etwa 8% mehr pro Woche, jede vierte Woche Erholung, Tapering vor dem Wettkampf"
-       ]
-      },
-      {
-       "t": "Schlaf und Ernährung",
-       "live": 1,
-       "p": "Schlaf kommt automatisch über Apple Health oder Health Connect herein; Energie und Kohlenhydrate trägst du selbst ein, wenn du möchtest.",
-       "b": [
-        "Durchschnittlicher Schlaf der letzten sieben Nächte",
-        "Nur für dich sichtbar",
-        "Abschaltbar, wenn du es nicht nutzt"
-       ]
-      }
-     ]
-    },
-    {
-     "h": "Gemeinsam in deiner Stadt",
-     "items": [
-      {
-       "t": "Mitteilungen, Nachrichten und Fotos",
-       "live": 1,
-       "p": "Sieh, wer dir einen Split gegeben, kommentiert oder dir gefolgt ist. Schick einem Mitglied eine private Nachricht und füge deiner Aktivität ein Foto hinzu.",
-       "b": [
-        "Nachrichten sind nur für dich und den Empfänger sichtbar",
-        "Ein Mitglied mit einem Tipp blockieren; es wird nicht benachrichtigt",
-        "Push-Mitteilungen kommen mit der Handy-App"
-       ]
-      },
-      {
-       "t": "Trainingspartner in deiner Stadt",
-       "live": 1,
-       "p": "Vorschläge für Mitglieder in deiner Stadt, die ungefähr so schnell und so weit unterwegs sind wie du, dieselbe Sportart machen und zu denselben Zeiten trainieren. Du teilst nur Durchschnittswerte, deine Sportarten, grob wann du trainierst und eine Altersgruppe.",
-       "b": [
-        "Auf Basis deines durchschnittlichen Tempos und deiner Distanz der letzten acht Wochen",
-        "Mitglieder sehen nur Durchschnittswerte und eine Altersgruppe, nie dein Geburtsjahr",
-        "Mit einem Schalter abschaltbar; unter 18 nimmst du nicht teil"
-       ]
-      },
-      {
-       "t": "Folgen, Feed und Splits",
-       "live": 1,
-       "p": "Folge Mitgliedern aus deiner Stadt oder deinem Club und sieh ihre geteilten Aktivitäten in deinem Feed. Gib einen Split als Anerkennung und hinterlasse einen Kommentar.",
-       "b": [
-        "Pro Aktivität entscheidest du, ob sie im Feed erscheint",
-        "Mitglieder sehen Name, Sportart, Distanz, Zeit, Herzfrequenz und die Linie deiner Route",
-        "Deine Herzfrequenz blendest du mit einem Schalter aus; deine Privatzone wird immer ausgelassen"
-       ]
-      },
-      {
-       "t": "Segmente und Ranglisten",
-       "live": 1,
-       "p": "Mach aus jedem Stück deiner Route ein Segment. Jeder, der dort vorbeikommt und Ranglisten eingeschaltet hat, zählt automatisch mit.",
-       "b": [
-        "Rangliste für deine Stadt oder für alle",
-        "Du siehst, wie viele Sekunden dir zur Bestzeit fehlen",
-        "Deine beste Zeit wird in all deinen Aktivitäten erkannt"
-       ]
-      },
-      {
-       "t": "Heatmap",
-       "live": 1,
-       "p": "Deine eigene Karte zeigt, wo du am meisten fährst und läufst. Die gemeinsame Karte deiner Stadt öffnet sich, sobald es genug Mitglieder gibt.",
-       "b": [
-        "Sichtbarer Stand pro Stadt: wie viele Mitglieder noch fehlen",
-        "Du trägst anonym bei, ohne Zeiten oder Namen",
-        "Wer nicht beiträgt, sieht die gemeinsame Karte nicht"
-       ]
-      },
-      {
-       "t": "Gruppenaktivitäten",
-       "live": 1,
-       "p": "Melde dich für einen Lauf oder eine Ausfahrt in deiner Nähe an, oder organisiere selbst eine. Mit Distanz, Tempo, Startort und maximaler Teilnehmerzahl.",
-       "b": [
-        "Voll ist voll, danach eine Warteliste, die von selbst nachrückt",
-        "Du siehst, wer mitkommt",
-        "Teilnahme auf eigene Gefahr"
-       ]
-      },
-      {
-       "t": "Clubs",
-       "live": 1,
-       "p": "Gründe einen Club für deine Laufgruppe oder deinen Radsportverein. Mitglieder sehen die Clubaktivitäten und die Kilometer der anderen.",
-       "b": [
-        "Clubaktivitäten stehen unter dem Namen des Clubs",
-        "Beitreten und verlassen mit einem Tipp",
-        "Der Gründer verwaltet den Club"
-       ]
-      },
-      {
-       "t": "Forum mit echten Kilometern",
-       "live": 1,
-       "p": "Drei Rubriken: Material, Routen und Veranstaltungen. Bei einer Bewertung eines Reifens oder Schuhs siehst du, wie viele Kilometer der Autor im Logbuch hat.",
-       "b": [
-        "Antworten und Beiträge melden",
-        "Eigene Beiträge löschst du selbst",
-        "Moderation durch den Administrator"
-       ]
-      },
-      {
-       "t": "Routen teilen",
-       "live": 1,
-       "p": "Teile eine gefahrene Aktivität als Route, mit einem Hinweis zu Belag oder Verkehr. Andere laden sie als GPX auf ihren Radcomputer oder ihre Uhr.",
-       "b": [
-        "Nur die Linie und die Distanz werden geteilt, keine Zeiten oder Herzfrequenz",
-        "Deine Privatzone wird ausgelassen",
-        "Routen aus deiner Stadt stehen oben"
-       ]
-      },
-      {
-       "t": "Routen ab deiner Adresse",
-       "live": 1,
-       "p": "Wähle Sportart und Distanz: Die App plant Runden ab deiner Adresse oder einem Punkt deiner Wahl, entlang der Wege, die Mitglieder am meisten nutzen. Mit Fotos, die Mitglieder mit öffentlichem Profil unterwegs gemacht haben.",
-       "b": [
-        "Routenplaner auf Basis von OpenStreetMap",
-        "Deine Adresse bleibt privat und bekommt eine Privatsphärezone",
-        "Als GPX für Uhr oder Radcomputer"
-       ]
+       ],
+       "s": "Kilometer auf Rad und Schuhen, und Trainings ohne Uhr."
       }
      ]
     },
     {
      "h": "Du entscheidest",
+     "w": "Was du teilst, was du einschaltest und was mit deinen Daten passiert.",
      "items": [
+      {
+       "t": "Privatsphäre",
+       "live": 1,
+       "p": "Du entscheidest, was du teilst. Was du nicht teilst, siehst nur du. Mit einer Privatzone bleiben 400 Meter um deinen Startpunkt auch aus Heatmap, Segmenten und geteilten Routen heraus.",
+       "b": [
+        "Alle deine Daten auf einmal mitnehmen",
+        "Alles von dir mit einem Knopf löschen",
+        "Speicherung in der EU, kein Verkauf von Daten"
+       ],
+       "s": "Du wählst, was du teilst; dein Startpunkt bleibt verborgen."
+      },
       {
        "t": "Deine Daten, deine Entscheidung",
        "live": 1,
@@ -2010,7 +2250,19 @@ window.SP_CONTENT = {
         "Standardmäßig machst du nicht mit; Mitmachen erfordert eine ausdrückliche Einwilligung pro Angebot",
         "Du siehst vorab, wer die Daten möchte, welche Daten und wofür",
         "Aufhören geht jederzeit; dein Name, deine Nachrichten und Fotos werden nie geliefert"
-       ]
+       ],
+       "s": "Kein Verkauf von Daten; du entscheidest bei jedem Angebot."
+      },
+      {
+       "t": "Modelle der Mitglieder",
+       "live": 1,
+       "p": "Das Training aller Mitglieder zusammen macht Pläne und Empfehlungen besser. Du machst standardmäßig mit, ohne Name, Foto oder Route, und kannst es jederzeit abschalten.",
+       "b": [
+        "Herzfrequenz, Erholung und Verletzungen zählen nur, wenn du das selbst einschaltest",
+        "Wer mitmacht, bekommt die verbesserten Modelle; wer es abschaltet, behält die Standardregeln",
+        "Ein mit Mitgliederdaten trainiertes Modell wird nicht ohne Abstimmung der Mitglieder verkauft"
+       ],
+       "s": "Gemeinsam bessere Ratschläge, anonym und abschaltbar."
       },
       {
        "t": "Module ein und aus",
@@ -2020,17 +2272,8 @@ window.SP_CONTENT = {
         "Was aus ist, verschwindet von deinem Bildschirm",
         "Ranglisten aus heißt: deine Zeiten werden nicht geteilt",
         "Heatmap aus heißt: deine Routen zählen nicht mit"
-       ]
-      },
-      {
-       "t": "Privatsphäre",
-       "live": 1,
-       "p": "Du entscheidest, was du teilst. Was du nicht teilst, siehst nur du. Mit einer Privatzone bleiben 400 Meter um deinen Startpunkt auch aus Heatmap, Segmenten und geteilten Routen heraus.",
-       "b": [
-        "Alle deine Daten auf einmal mitnehmen",
-        "Alles von dir mit einem Knopf löschen",
-        "Speicherung in der EU, kein Verkauf von Daten"
-       ]
+       ],
+       "s": "Schalte nur ein, was du nutzt."
       },
       {
        "t": "Eigentümerseite",
@@ -2039,18 +2282,21 @@ window.SP_CONTENT = {
        "b": [
         "Ein Mitglied, eine Stimme",
         "Das Ergebnis siehst du, nachdem du abgestimmt hast"
-       ]
+       ],
+       "s": "Deine Mitgliedsnummer, Abstimmungen und die Zahlen des Unternehmens."
       }
      ]
     },
     {
      "h": "Demnächst",
+     "w": "Woran wir gerade arbeiten.",
      "items": [
       {
        "t": "App für iPhone und Android",
        "live": 0,
        "p": "Die iPhone-App ist in TestFlight für die ersten Tester, die Android-App wird getestet. App Store und Google Play folgen nach der Testphase.",
-       "b": []
+       "b": [],
+       "s": "Die iPhone-App ist im Test, Android folgt."
       },
       {
        "t": "Direkte Verbindung mit deiner Uhr",
@@ -2058,11 +2304,50 @@ window.SP_CONTENT = {
        "p": "Über Apple Health und Health Connect kommen Garmin, Oura und Whoop schon jetzt herein. Direkte Verbindungen mit Garmin, Oura, Whoop, Wahoo, COROS und Polar folgen; die Mitglieder stimmen über die Reihenfolge ab.",
        "b": [
         "Bis dahin funktioniert jede Marke über Dateien oder dein Handy"
-       ]
+       ],
+       "s": "Garmin, Oura und Whoop direkt verbunden."
       }
      ]
     }
-   ]
+   ],
+   "why": {
+    "h": "Warum diese Reihenfolge",
+    "p": "Wir haben uns Forschung dazu angesehen, was Menschen mit Sport-Apps und Uhren tun und was sie dabei hält.",
+    "b": [
+     "Festhalten und Fortschritt sehen sind die Funktionen, die am meisten genutzt werden; in einer Studie mit Fitbit-Nutzern standen Aktualisieren und Erinnern vorn.",
+     "Die Verbindung mit der Uhr steht am Anfang: Was deine Uhr misst, ist die Grundlage für alles andere.",
+     "Gemeinsam trainieren hält Menschen dabei: Auf Strava gab es 2025 14 Milliarden Kudos, die Zahl der Clubs hat sich fast vervierfacht. Wer seine Trainings öffentlich teilt, nutzt einen Tracker laut einer Langzeitstudie länger.",
+     "Routen sind gefragt: Auf Strava entstand 2025 alle 19 Sekunden eine neue Route.",
+     "Ein Coach ist ein wachsender Wunsch: 46% von 30.000 Befragten würden KI als Coach nutzen.",
+     "Mehr als 45% sorgen sich um die Sicherheit ihrer Gesundheitsdaten, aber nur wenige stellen ihre Privatsphäre selbst ein. Deshalb wählst du bei uns für jeden Bereich, was du teilst, und wir verkaufen keine Daten."
+    ],
+    "src": [
+     [
+      "Fitbit-Nutzer, JMIR Human Factors 2026",
+      "https://humanfactors.jmir.org/2026/1/e85412"
+     ],
+     [
+      "Strava Year in Sport 2025",
+      "https://www.prnewswire.co.uk/news-releases/strava-releases-12th-annual-year-in-sport-trend-report-revealing-that-doomscrolling-is-out-movement-is-in-302631130.html"
+     ],
+     [
+      "Teilen und dauerhafte Nutzung, 2021",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC7982124"
+     ],
+     [
+      "Nutzung von Datenschutzfunktionen, CHI 2026",
+      "https://elathan.github.io/papers/chi26.pdf"
+     ],
+     [
+      "Sorgen um Gesundheitsdaten, Healthline",
+      "https://www.bitdefender.com/en-gb/blog/hotforsecurity/one-in-two-users-fears-personal-health-data-is-unsafe-on-fitness-apps-and-gadgets"
+     ]
+    ],
+    "srch": "Quellen"
+   },
+   "more": "Mehr",
+   "open": "Alle aufklappen",
+   "close": "Alle zuklappen"
   },
   "own": {
    "eyebrow": "Eigentum",
