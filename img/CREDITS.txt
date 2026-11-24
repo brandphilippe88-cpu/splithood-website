@@ -5,3 +5,4 @@ sport-fiets.webp: Coen van de Broek, https://unsplash.com/photos/OFyh9TpMyM8
 sport-loop.webp: Jenny Hill, https://unsplash.com/photos/mQVWb7kUoOE
 sport-mtb.webp: Axel Brunst, https://unsplash.com/photos/yr22qT5pqw4
 sport-zwem.webp: Gentrit Sylejmani, https://unsplash.com/photos/man-doing-butterfly-stroke-JjUyjE-oEbM
+horizon.webp: NASA, foto vanuit het ISS (Expeditie 65, 1 juni 2021), boven de Noordzee en het Kanaal met de kust van Nederland, Belgie en Frankrijk. iss065e083895, https://images.nasa.gov/details/iss065e083895. Publiek domein.
