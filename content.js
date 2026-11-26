@@ -72,7 +72,7 @@ window.SP_CONTENT = {
     "Kaart",
     "Eigenaar"
    ],
-   "alt": "Twee schermen uit de app met voorbeelddata: een fietsrit op de kaart en een krachttraining met oefeningen"
+   "alt": "Twee schermen uit de app met voorbeelddata: de analyse van een fietsrit met grafieken en wat er opvalt aan de training"
   },
   "home": {
    "eyebrow": "Voor iedereen die sport",
@@ -147,11 +147,11 @@ window.SP_CONTENT = {
     "items": [
      [
       "Vandaag",
-      "Je week, het advies van de coach en wat er gepland staat."
+      "Hoe je ervoor staat, je doel van vandaag en je week."
      ],
      [
       "Samen",
-      "Trainingen van leden die je volgt, met foto, kaart en een Split."
+      "Spreek af om samen te sporten en volg de trainingen van leden."
      ],
      [
       "Elke training",
@@ -928,7 +928,7 @@ window.SP_CONTENT = {
     "Map",
     "Owner"
    ],
-   "alt": "Two screens from the app with sample data: a ride on the map and a strength session with exercises"
+   "alt": "Two screens from the app with sample data: the analysis of a ride with charts and what stands out in the session"
   },
   "home": {
    "eyebrow": "For everyone who plays sport",
@@ -1003,11 +1003,11 @@ window.SP_CONTENT = {
     "items": [
      [
       "Today",
-      "Your week, the coach’s advice and what is planned."
+      "How you are doing, your goal for today and your week."
      ],
      [
       "Together",
-      "Sessions from members you follow, with photo, map and a Split."
+      "Plan a session together and follow what other members do."
      ],
      [
       "Every session",
@@ -1784,7 +1784,7 @@ window.SP_CONTENT = {
     "Karte",
     "Eigentum"
    ],
-   "alt": "Zwei Bildschirme der App mit Beispieldaten: eine Radtour auf der Karte und ein Krafttraining mit Übungen"
+   "alt": "Zwei Bildschirme der App mit Beispieldaten: die Analyse einer Radtour mit Grafiken und was am Training auffällt"
   },
   "home": {
    "eyebrow": "Für alle, die Sport treiben",
@@ -1859,11 +1859,11 @@ window.SP_CONTENT = {
     "items": [
      [
       "Heute",
-      "Deine Woche, der Rat des Coachs und was geplant ist."
+      "Wie es um dich steht, dein Ziel für heute und deine Woche."
      ],
      [
       "Gemeinsam",
-      "Trainings von Mitgliedern, denen du folgst, mit Foto, Karte und einem Split."
+      "Verabrede dich zum Sport und folge den Trainings anderer Mitglieder."
      ],
      [
       "Jedes Training",
