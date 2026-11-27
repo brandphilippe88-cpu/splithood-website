@@ -768,6 +768,10 @@ window.SP_CONTENT = {
    "lead": "Staat je vraag er niet bij? Mail naar hallo@splithood.com.",
    "items": [
     [
+     "Is Splithood gratis?",
+     "Ja, de basis is gratis: trainingen opnemen en importeren, je logboek, de analyse van elke training, trends, samen sporten, segmenten en ranglijsten. Voor een trainingsschema, een route laten bouwen en vragen aan de coach word je lid. Tijdens de testfase kun je het lidmaatschap gratis proberen."
+    ],
+    [
      "Wat kost het lidmaatschap?",
      "De beoogde prijs is 12 euro per jaar, dus 1 euro per maand, en minder voor mede-eigenaren. Dat is wat de app per lid kost, plus ongeveer 1 euro voor de reserve. Er zijn geen investeerders die rendement eisen. We publiceren de kosten per lid, zodat je de prijs kunt narekenen, en stellen de prijs elk jaar opnieuw vast."
     ],
@@ -1624,6 +1628,10 @@ window.SP_CONTENT = {
    "lead": "Is your question missing? Email hallo@splithood.com.",
    "items": [
     [
+     "Is Splithood free?",
+     "Yes, the basics are free: recording and importing workouts, your log, the analysis of every session, trends, training together, segments and leaderboards. For a training plan, having a route built and questions to the coach you become a member. During the test phase you can try membership for free."
+    ],
+    [
      "What does membership cost?",
      "The intended price is 12 euros per year, so 1 euro per month, and less for co-owners. That is what the app costs per member, plus about 1 euro for the reserve. There are no investors demanding a return. We publish the cost per member, so you can check the price yourself, and we set the price again every year."
     ],
@@ -2479,6 +2487,10 @@ window.SP_CONTENT = {
    "h1": "Was Leute wissen wollen",
    "lead": "Deine Frage ist nicht dabei? Schreib an hallo@splithood.com.",
    "items": [
+    [
+     "Ist Splithood kostenlos?",
+     "Ja, die Basis ist kostenlos: Trainings aufzeichnen und importieren, dein Logbuch, die Analyse jedes Trainings, Trends, gemeinsam Sport treiben, Segmente und Ranglisten. Für einen Trainingsplan, das Erstellen einer Route und Fragen an den Coach wirst du Mitglied. In der Testphase kannst du die Mitgliedschaft kostenlos ausprobieren."
+    ],
     [
      "Was kostet die Mitgliedschaft?",
      "Der geplante Preis beträgt 12 Euro pro Jahr, also 1 Euro pro Monat, und weniger für Miteigentümer. Das sind die Kosten der App pro Mitglied, plus etwa 1 Euro für die Rücklage. Es gibt keine Investoren, die Rendite verlangen. Wir veröffentlichen die Kosten pro Mitglied, damit du den Preis nachrechnen kannst, und legen den Preis jedes Jahr neu fest."
