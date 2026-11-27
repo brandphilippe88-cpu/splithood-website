@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Privacy | Splithood</title>
-<meta name="description" content="Hoe de testversie van de Splithood-app met je gegevens omgaat.">
+<meta name="description" content="Hoe de testversie van de Splithood-app met je gegevens omgaat: waar ze staan, wie ze ziet en wat je zelf kunt kiezen.">
 <link rel="icon" type="image/svg+xml" href="/img/mark.svg">
 <style>
 body{margin:0;background:#F3F6F4;color:#0A1424;font:16px/1.6 Inter,system-ui,-apple-system,Segoe UI,Roboto,sans-serif}
@@ -25,37 +25,70 @@ hr{border:0;border-top:1px solid #DDE5E1;margin:44px 0}
 <a class="top" href="/"><img src="/img/mark.svg" alt="" width="32" height="32">Splithood</a>
 
 <h1>Privacy</h1>
-<p class="mut">Testversie van de app (TestFlight) · laatst bijgewerkt 23 november 2026</p>
+<p class="mut">Testversie van de app (TestFlight en Android) · laatst bijgewerkt 27 november 2026</p>
 
-<p>Splithood is een sportapp in opbouw, gemaakt door Philippe Brand uit Amersfoort. Deze pagina beschrijft wat de testversie van de app met je gegevens doet. Als dat verandert, bijvoorbeeld omdat er een account of server bij komt, passen we deze pagina aan voordat die versie uitkomt.</p>
+<p>Splithood is een sportapp in opbouw, gemaakt door Philippe Brand uit Amersfoort. Hij is verantwoordelijk voor wat er met je gegevens gebeurt. Deze pagina beschrijft wat de testversie van de app met je gegevens doet. Verandert dat, dan passen we deze pagina aan voordat die versie uitkomt.</p>
 
-<h2>Waar je gegevens staan</h2>
-<p>In de testversie is er geen account en geen server van Splithood. Alles wat je invoert of vastlegt, zoals trainingen, routes, gymsessies, voeding en je profiel, wordt alleen op je eigen telefoon opgeslagen, in de opslag van de app. Wij kunnen het niet inzien. Verwijder je de app, dan zijn die gegevens weg.</p>
+<h2>In het kort</h2>
+<ul>
+<li>Je gegevens staan op een server in de Europese Unie, in een deel dat alleen jij kunt lezen, tenzij je zelf iets deelt.</li>
+<li>We tonen geen reclame en verkopen geen gegevens.</li>
+<li>Gratis leden, betalende leden en mede-eigenaren worden precies hetzelfde behandeld.</li>
+<li>Je kunt alles downloaden en alles wissen.</li>
+</ul>
+
+<h2>Welke gegevens</h2>
+<p>Wat je zelf invoert, opneemt of inleest: je profiel (naam, woonplaats, geboortedatum, en als je dat invult je lengte en gewicht), je trainingen met route, tijd, afstand en hartslag, je routes en segmenten, gymsessies, je dagboek, wat je invult over slaap en herstel, en berichten aan andere leden. Hartslag, slaap, herstel en gewicht zijn gegevens over je gezondheid. De app verwerkt ze alleen om ze aan jou te laten zien en om er voor jou iets over te zeggen.</p>
+
+<h2>Je account en waar je gegevens staan</h2>
+<p>De app maakt bij de eerste start een account aan dat bij je telefoon hoort. Een e-mailadres is niet nodig; je kunt er later een toevoegen om op een ander toestel in te loggen. Je gegevens staan bij Supabase, op servers in de Europese Unie. Elk lid heeft daar een eigen deel dat alleen dat lid kan lezen en wijzigen. Als beheerder kan Splithood technisch bij de database; we bekijken gegevens van leden alleen als dat nodig is om een storing op te lossen of als je daar zelf om vraagt.</p>
+
+<h2>Wat andere leden zien</h2>
+<p>Alleen wat je zelf deelt. Dat kunnen activiteiten in de feed zijn, tijden op segmenten en ranglijsten, routes die je deelt, tips, en een openbaar profiel als je dat aanzet. Berichten lezen alleen de afzender en de ontvanger. Je dagboek, je gewicht, je herstel en je blessurelogboek ziet niemand anders, tenzij je je dagboek zelf met je coach deelt. Met een privacyzone blijft de omgeving van je startpunt uit alles wat je deelt.</p>
 
 <h2>Locatie</h2>
-<p>De app vraagt toegang tot je locatie als je een training opneemt. Je locatie wordt dan gebruikt om je route, afstand en tempo te berekenen en wordt op je telefoon bewaard. De app gebruikt je locatie niet op de achtergrond en deelt haar niet met ons.</p>
+<p>De app gebruikt je locatie als je zelf een training opneemt, ook als het scherm dan uit is, om je route, afstand en tempo vast te leggen. Buiten een opname volgt de app je locatie niet. Vul je een startpunt in voor routes, dan wordt dat bij je profiel bewaard.</p>
 
-<h2>Camera</h2>
-<p>De camera wordt alleen gebruikt als je zelf een streepjescode van een product scant. Er worden geen foto's opgeslagen of verstuurd.</p>
+<h2>Apple Health en horloges</h2>
+<p>Koppel je Apple Health, dan leest de app, na jouw toestemming, je trainingen met hun route, hartslag, hartslagvariatie, rusthartslag, slaap, stappen, VO2max en gewicht. Die gegevens komen in je eigen deel op de server. De app schrijft alleen naar Apple Health als je daar zelf om vraagt. Je trekt de toestemming in via de instellingen van je iPhone.</p>
+
+<h2>Camera, foto's en contacten</h2>
+<p>De camera wordt alleen gebruikt als je zelf een streepjescode scant. Foto's gebruikt de app alleen als je er zelf een kiest. Zoek je vrienden via je adressenlijst, dan gebeurt het vergelijken op je telefoon; je adressenlijst wordt niet verstuurd.</p>
+
+<h2>De coach</h2>
+<p>Het advies van vandaag, een gymsessie en een schema volgens de vaste regels worden in de app zelf berekend. Stel je de coach een vraag in je eigen woorden, of laat je een schema op maat maken, dan gaat je vraag met een korte samenvatting van je trainingen, slaap en herstel via onze server naar een taalmodel van Anthropic. Je naam gaat daarbij niet mee. Dit gebeurt alleen op het moment dat je erom vraagt.</p>
 
 <h2>Diensten van anderen</h2>
 <ul>
-<li><strong>Kaarten</strong>: kaarttegels worden geladen van CARTO (basemaps.cartocdn.com), met kaartgegevens van OpenStreetMap. CARTO ziet daarbij je IP-adres en welk stuk kaart wordt opgevraagd, niet je route.</li>
-<li><strong>Productinformatie</strong>: zoek of scan je een product, dan gaat de zoekterm of streepjescode naar Open Food Facts om de voedingswaarden op te halen.</li>
-<li><strong>Lettertypen</strong>: de app laadt lettertypen van Google Fonts. Google ziet daarbij je IP-adres.</li>
-<li><strong>Apple TestFlight</strong>: als tester deel je via TestFlight crashrapporten, gebruiksstatistieken en feedback die je zelf instuurt met Apple en met ons. Daarvoor geldt het privacybeleid van Apple.</li>
+<li><strong>Kaarten</strong>: kaartbeelden komen van OpenFreeMap, met kaartgegevens van OpenStreetMap. De dienst ziet je IP-adres en welk stuk kaart wordt opgevraagd.</li>
+<li><strong>Routes en adressen</strong>: laat je een route bouwen, dan gaan het start- en eindpunt naar de routedienst BRouter. Zoek je een adres, dan gaat wat je typt naar de zoekdienst Photon. Gegevens over paden en plekken komen van OpenStreetMap (Overpass).</li>
+<li><strong>Weer</strong>: voor het weer bij een training of route gaan de plaats en het tijdstip naar Open-Meteo.</li>
+<li><strong>Productinformatie</strong>: zoek of scan je een product, dan gaat de zoekterm of streepjescode naar Open Food Facts.</li>
+<li><strong>Lettertypen en onderdelen van de app</strong>: de app laadt lettertypen van Google Fonts en een hulponderdeel via cdnjs. Die diensten zien je IP-adres.</li>
+<li><strong>Apple TestFlight en Google Play</strong>: als tester deel je crashrapporten, gebruiksstatistieken en feedback die je zelf instuurt met Apple of Google en met ons. Daarvoor geldt hun privacybeleid.</li>
 </ul>
+<p>Bij deze diensten gaat nooit je naam of je account mee.</p>
 
-<h2>Geen reclame, geen verkoop</h2>
-<p>We tonen geen advertenties, gebruiken geen trackers voor reclame en verkopen geen gegevens.</p>
+<h2>Gratis of lid: dezelfde regels</h2>
+<p>Of je Splithood gratis gebruikt, lid bent of mede-eigenaar: je gegevens worden op precies dezelfde manier opgeslagen, beveiligd en gebruikt. Een gratis lid betaalt niet met zijn gegevens.</p>
+
+<h2>Geen reclame, geen verkoop; jouw data, jouw keuze</h2>
+<p>We tonen geen advertenties, gebruiken geen trackers voor reclame en verkopen geen gegevens van leden. Komt er een aanbod van een onderzoeker, gemeente of bedrijf, dan zie je dat in de app. Je kiest per aanbod of je meedoet, je ziet vooraf welke gegevens het betreft, de volledige vergoeding is voor jou en je kunt altijd stoppen. Wie niets kiest, doet niet mee. In de testversie wordt er niets geleverd of uitbetaald.</p>
+
+<h2>Jonger dan 18</h2>
+<p>Je kunt lid worden vanaf 16 jaar. Ben je 16 of 17, dan staat de app in een beschermde stand: de app toont je profiel niet aan anderen, alleen leden die je zelf toelaat kunnen je volgen, en je kunt niet meedoen aan aanbiedingen voor je gegevens.</p>
+
+<h2>Hoe lang we bewaren</h2>
+<p>Zolang je account bestaat. Wat je dagelijks invult over slaap en herstel bewaren we twee jaar. Wis je je gegevens of je account, dan zijn ze weg van de server.</p>
 
 <h2>Je rechten en contact</h2>
-<p>Omdat je gegevens op je eigen telefoon staan, kun je ze zelf inzien, aanpassen en verwijderen. Vragen over privacy kun je mailen naar <a href="mailto:hallo@splithood.com">hallo@splithood.com</a>.</p>
+<p>In de app, onder Jij, kun je al je gegevens downloaden en alles wissen. Je kunt ons ook vragen om inzage, verbetering of verwijdering: mail naar <a href="mailto:hallo@splithood.com">hallo@splithood.com</a>. Ben je het niet eens met hoe we met je gegevens omgaan, dan kun je een klacht indienen bij de Autoriteit Persoonsgegevens.</p>
 
 <hr>
 
-<h2 lang="en">Privacy in English (short)</h2>
-<p lang="en">The test version of the Splithood app has no account and no Splithood server. Everything you enter or record stays on your own phone. Location is used only while you record a workout and stays on your device. The camera is used only when you scan a barcode. Map tiles are loaded from CARTO (OpenStreetMap data), product lookups go to Open Food Facts, and fonts come from Google Fonts; these services see your IP address. TestFlight shares crash logs, usage statistics and feedback you send with Apple and with us. We show no ads and sell no data. Questions: <a href="mailto:hallo@splithood.com">hallo@splithood.com</a>.</p>
+<h2>Privacy in English (short)</h2>
+<p>The test version of the Splithood app creates an account tied to your phone; no email address is needed. Your data (profile, workouts with route and heart rate, sleep and recovery, weight, diary, messages) is stored with Supabase on servers in the European Union, in a private space only you can read unless you choose to share something. Location is used only while you record a workout, also with the screen off. With your permission the app reads workouts, heart rate, sleep, steps, VO2max and weight from Apple Health. A free-form question to the coach or a personalised plan is sent, with a short summary of your training and recovery but without your name, through our server to a language model by Anthropic, only when you ask. Map tiles come from OpenFreeMap, routing from BRouter, address search from Photon, weather from Open-Meteo, product lookups from Open Food Facts, fonts from Google Fonts; these services see your IP address or the place you ask about, never your name. Free users, members and co-owners are treated exactly the same. We show no ads and sell no data; if a researcher, city or company makes an offer, you choose per offer and the full payment is yours. You can download or erase everything in the app. Questions: <a href="mailto:hallo@splithood.com">hallo@splithood.com</a>.</p>
+
 </main>
 </body>
 </html>

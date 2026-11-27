@@ -533,7 +533,7 @@ window.SP_CONTENT = {
       {
        "t": "Jouw data, jouw keuze",
        "live": 1,
-       "p": "Splithood verkoopt geen gegevens van leden. Komt er een aanbod van een onderzoeker, gemeente of bedrijf, dan kies jij per aanbod of je meedoet, en de volledige vergoeding is voor jou.",
+       "p": "Splithood verkoopt geen gegevens van leden. Komt er een aanbod van een onderzoeker, gemeente of bedrijf, dan kies jij per aanbod of je meedoet, en de volledige vergoeding is voor jou. Voor gratis leden gelden precies dezelfde regels als voor betalende leden.",
        "b": [
         "Standaard doe je niet mee; meedoen vraagt een uitdrukkelijke toestemming per aanbod",
         "Je ziet vooraf wie de gegevens wil, welke gegevens en waarvoor",
@@ -1393,7 +1393,7 @@ window.SP_CONTENT = {
       {
        "t": "Your data, your choice",
        "live": 1,
-       "p": "Splithood does not sell member data. If a researcher, city or company makes an offer, you choose per offer whether to take part, and the full payment is yours.",
+       "p": "Splithood does not sell member data. If a researcher, city or company makes an offer, you choose per offer whether to take part, and the full payment is yours. Free users are treated exactly the same as paying members.",
        "b": [
         "By default you are out; taking part requires explicit consent per offer",
         "You see in advance who wants the data, which data and what for",
@@ -2253,7 +2253,7 @@ window.SP_CONTENT = {
       {
        "t": "Deine Daten, deine Entscheidung",
        "live": 1,
-       "p": "Splithood verkauft keine Daten von Mitgliedern. Kommt ein Angebot von einer Forschungseinrichtung, einer Stadt oder einem Unternehmen, entscheidest du pro Angebot, ob du mitmachst, und die volle Vergütung gehört dir.",
+       "p": "Splithood verkauft keine Daten von Mitgliedern. Kommt ein Angebot von einer Forschungseinrichtung, einer Stadt oder einem Unternehmen, entscheidest du pro Angebot, ob du mitmachst, und die volle Vergütung gehört dir. Für kostenlose Mitglieder gelten genau dieselben Regeln wie für zahlende.",
        "b": [
         "Standardmäßig machst du nicht mit; Mitmachen erfordert eine ausdrückliche Einwilligung pro Angebot",
         "Du siehst vorab, wer die Daten möchte, welche Daten und wofür",
